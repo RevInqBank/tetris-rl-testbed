@@ -1,12 +1,15 @@
-<!-- Parent: ../PROJECT.md -->
-# Tetris Engine Spec v1 (engine 소유 · 규칙 확정본)
+# 게임 규칙 명세
 
-이 문서는 `PROJECT.md`의 규칙 결정을 구현 가능한 수준까지 못박은 것이다.
-Python(`engine/engine.py`)과 JS(`web/engine.js`)는 **이 문서를 비트 단위로 동일하게** 구현한다.
-여기 적히지 않은 동작은 구현 자유가 아니라 **미결**이며, engine 에게 물어야 한다.
+**이 프로젝트에는 테트리스 규칙 구현이 넷 있다** — 파이썬 정본(`engine/engine.py`), 브라우저용
+JS(`web/engine.js`), 학습용 고속 시뮬레이터(`rl/fastsim.py`), 구형 비교용(`web/engine.classic.js`).
+**넷이 조금이라도 갈라지면 모든 측정값이 조용히 틀어지므로**, 이 문서가 넷이 공유하는 기준이다.
+구현은 여기 적힌 대로 **비트 단위로 동일하게** 동작해야 하고, `engine/parity.py`가 그것을 대조한다.
 
-용도: rl 은 `legal_placements`/`apply_placement`의 반환 구조와 `info` 필드를 여기서 확인한다.
-web 은 좌표계·회전 테이블·wall kick·중력 곡선·상태 필드명을 여기서 확인한다.
+**여기 적히지 않은 동작은 구현 자유가 아니라 미결이다.** 갈라질 여지를 남기지 않으려면 먼저 이 문서에
+적고 나서 구현해야 한다.
+
+**어디를 보면 되나** — 배치를 다루는 코드는 `legal_placements`/`apply_placement`의 반환 구조와 `info`
+필드를, 화면을 그리는 코드는 좌표계·회전 테이블·벽 차기·중력 곡선·상태 필드명을 여기서 확인한다.
 
 ---
 

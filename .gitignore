@@ -13,3 +13,6 @@ __pycache__/
 .DS_Store
 tools/serve.log
 tools/STOP
+
+# Statusline/tool state written into whatever directory is current.
+.omc/
