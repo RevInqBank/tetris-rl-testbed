@@ -823,7 +823,18 @@ function renderEvalTable(currentId) {
     </tr>`;
   }).join('');
 
-  return `<div class="panel"><h3>전략 비교 · rl 평가 (홀드아웃 시드 ${sum.seeds?.length ?? '?'}개, 조각 상한 ${(sum.piece_cap ?? 0).toLocaleString()})</h3>
+  /* rl writes the run parameters under `last_run`, not at the top level.
+     Reading them from the top level silently produced "시드 ?개, 상한 0" --
+     a header that looks like a measurement and is not one. Rows carry their
+     own copy, so fall back to the first row before giving up. */
+  const anyRow = withStats[0] || {};
+  const capN = sum.last_run?.piece_cap ?? sum.piece_cap ?? anyRow.piece_cap;
+  const seedN = (sum.last_run?.seeds ?? sum.seeds ?? anyRow.seeds)?.length;
+  const runHdr = (seedN && capN)
+    ? `홀드아웃 시드 ${seedN}개, 조각 상한 ${capN.toLocaleString()}`
+    : '실행 조건 미기록';
+
+  return `<div class="panel"><h3>전략 비교 · rl 평가 (${runHdr})</h3>
     ${warnHtml}
     <div style="overflow-x:auto">
     <table class="eval-table">
