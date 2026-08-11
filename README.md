@@ -4,8 +4,6 @@
 
 ### ▶ [지금 바로 열기](https://revinqbank.github.io/tetris-rl-testbed/)
 
-설치할 것도, 서버도 없습니다. 링크를 열면 그냥 돕니다.
-
 ---
 
 ## 화면 미리보기
