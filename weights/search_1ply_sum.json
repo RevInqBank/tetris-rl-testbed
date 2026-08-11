@@ -1,0 +1,323 @@
+{
+ "name": "search_1ply_sum",
+ "kind": "linear",
+ "features": [
+  "landing_height",
+  "eroded_piece_cells",
+  "row_transitions",
+  "column_transitions",
+  "holes",
+  "cumulative_wells",
+  "aggregate_height",
+  "bumpiness"
+ ],
+ "weights": [
+  -0.33640502806921185,
+  -0.3639994228772844,
+  -0.15623128580926599,
+  -0.8099568826594415,
+  -0.0646780821933724,
+  -0.1806927790300344,
+  -0.13283543019676275,
+  -0.1393532366914061
+ ],
+ "meta": {
+  "trained_at": "2026-08-07T11:05:36+00:00",
+  "algorithm": "1-ply lookahead (current + next piece) over a CEM-learned linear value, rule=sum",
+  "note": "Weights are copied verbatim from cem_linear.json; no training was done, so any difference from panel 3 is attributable to search alone. The web UI must run this with 2-ply search; run greedily it reproduces panel 3 exactly.",
+  "search": {
+   "plies": 2,
+   "uses_next_piece": true,
+   "rule": "sum",
+   "formula": "score(p1) = v(after p1) + max_p2 v(after p1 -> p2)",
+   "death_penalty": -1000000.0,
+   "rule_change_note": "2026-08-07: the default changed from 'sum' to 'leaf'. The summed rule adds values of states at two different depths, double-counting the intermediate node, and adds landing_height/eroded_piece_cells across two different placements, which is meaningless. Measured: the summed rule LOST to plain greedy CEM on all three test seeds, and collapsing the search (extreme difficulty, no next piece) IMPROVED the score. 'sum' is preserved as search_1ply_sum.json for the record."
+  },
+  "source_weights": "cem_linear.json",
+  "eval": {
+   "median_lines": 1199.0,
+   "mean_lines": 1198.6,
+   "min_lines": 1198,
+   "max_lines": 1199,
+   "median_score": 8522900.0,
+   "median_norm_score_per_piece": 46.84166666666667,
+   "median_tetris_rate": 0.0,
+   "mean_over_median_lines": 0.9996663886572142,
+   "n": 10,
+   "hit_cap_count": 10,
+   "evaluated_at": "2026-08-07T12:47:54+00:00",
+   "seeds": [
+    900001,
+    900002,
+    900003,
+    900004,
+    900005,
+    900006,
+    900007,
+    900008,
+    900009,
+    900010
+   ],
+   "piece_cap": 3000,
+   "difficulty": "normal",
+   "mean_score": 8512185.0,
+   "mean_score_per_piece": 2837.395,
+   "mean_norm_score_per_piece": 46.93,
+   "mean_tetris_rate": 0.0,
+   "mean_pieces": 3000.0,
+   "games_hit_cap": 10,
+   "n_games": 10,
+   "saturated": true,
+   "evaluated_on": "engine",
+   "per_game": [
+    {
+     "seed": 900001,
+     "difficulty": 0,
+     "lines": 1198,
+     "score": 8562500,
+     "pieces": 3000,
+     "died": false,
+     "hit_cap": true,
+     "score_per_piece": 2854.1666666666665,
+     "norm_score_per_piece": 47.333333333333336,
+     "tetris_rate": 0.0,
+     "clears_by_n": [
+      1885,
+      1033,
+      81,
+      1,
+      0
+     ],
+     "seconds": 287.13
+    },
+    {
+     "seed": 900002,
+     "difficulty": 0,
+     "lines": 1198,
+     "score": 8432750,
+     "pieces": 3000,
+     "died": false,
+     "hit_cap": true,
+     "score_per_piece": 2810.9166666666665,
+     "norm_score_per_piece": 46.61666666666667,
+     "tetris_rate": 0.0,
+     "clears_by_n": [
+      1872,
+      1060,
+      66,
+      2,
+      0
+     ],
+     "seconds": 279.36
+    },
+    {
+     "seed": 900003,
+     "difficulty": 0,
+     "lines": 1199,
+     "score": 8602250,
+     "pieces": 3000,
+     "died": false,
+     "hit_cap": true,
+     "score_per_piece": 2867.4166666666665,
+     "norm_score_per_piece": 47.43333333333333,
+     "tetris_rate": 0.0,
+     "clears_by_n": [
+      1890,
+      1021,
+      89,
+      0,
+      0
+     ],
+     "seconds": 293.46
+    },
+    {
+     "seed": 900004,
+     "difficulty": 0,
+     "lines": 1199,
+     "score": 8423150,
+     "pieces": 3000,
+     "died": false,
+     "hit_cap": true,
+     "score_per_piece": 2807.7166666666667,
+     "norm_score_per_piece": 46.46666666666667,
+     "tetris_rate": 0.0,
+     "clears_by_n": [
+      1865,
+      1072,
+      62,
+      1,
+      0
+     ],
+     "seconds": 290.94
+    },
+    {
+     "seed": 900005,
+     "difficulty": 0,
+     "lines": 1198,
+     "score": 8455100,
+     "pieces": 3000,
+     "died": false,
+     "hit_cap": true,
+     "score_per_piece": 2818.366666666667,
+     "norm_score_per_piece": 46.8,
+     "tetris_rate": 0.0,
+     "clears_by_n": [
+      1879,
+      1044,
+      77,
+      0,
+      0
+     ],
+     "seconds": 278.8
+    },
+    {
+     "seed": 900006,
+     "difficulty": 0,
+     "lines": 1199,
+     "score": 8518450,
+     "pieces": 3000,
+     "died": false,
+     "hit_cap": true,
+     "score_per_piece": 2839.483333333333,
+     "norm_score_per_piece": 46.65,
+     "tetris_rate": 0.0,
+     "clears_by_n": [
+      1876,
+      1049,
+      75,
+      0,
+      0
+     ],
+     "seconds": 287.59
+    },
+    {
+     "seed": 900007,
+     "difficulty": 0,
+     "lines": 1199,
+     "score": 8527350,
+     "pieces": 3000,
+     "died": false,
+     "hit_cap": true,
+     "score_per_piece": 2842.45,
+     "norm_score_per_piece": 47.11666666666667,
+     "tetris_rate": 0.0,
+     "clears_by_n": [
+      1886,
+      1030,
+      83,
+      1,
+      0
+     ],
+     "seconds": 274.93
+    },
+    {
+     "seed": 900008,
+     "difficulty": 0,
+     "lines": 1199,
+     "score": 8549350,
+     "pieces": 3000,
+     "died": false,
+     "hit_cap": true,
+     "score_per_piece": 2849.7833333333333,
+     "norm_score_per_piece": 46.88333333333333,
+     "tetris_rate": 0.0,
+     "clears_by_n": [
+      1873,
+      1058,
+      66,
+      3,
+      0
+     ],
+     "seconds": 287.95
+    },
+    {
+     "seed": 900009,
+     "difficulty": 0,
+     "lines": 1199,
+     "score": 8451950,
+     "pieces": 3000,
+     "died": false,
+     "hit_cap": true,
+     "score_per_piece": 2817.3166666666666,
+     "norm_score_per_piece": 46.6,
+     "tetris_rate": 0.0,
+     "clears_by_n": [
+      1867,
+      1067,
+      66,
+      0,
+      0
+     ],
+     "seconds": 276.15
+    },
+    {
+     "seed": 900010,
+     "difficulty": 0,
+     "lines": 1198,
+     "score": 8599000,
+     "pieces": 3000,
+     "died": false,
+     "hit_cap": true,
+     "score_per_piece": 2866.3333333333335,
+     "norm_score_per_piece": 47.4,
+     "tetris_rate": 0.0,
+     "clears_by_n": [
+      1899,
+      1006,
+      93,
+      2,
+      0
+     ],
+     "seconds": 287.66
+    }
+   ],
+   "source": "evaluate.py (engine)"
+  },
+  "eval_piece_cap": 3000,
+  "parity_verified": true,
+  "critic_role_ko": "\uae4a\uc774\uac00 \ub2e4\ub978 \ub450 \uad6d\uba74\uc758 \uac00\uce58\ub97c \ub354\ud558\ub358 \uc61b \uaddc\uce59\uc774\ub2e4. \uc911\uac04 \ub178\ub4dc\ub97c \ub450 \ubc88 \uc138\uace0, landing_height\u00b7eroded_piece_cells \ub97c \uc11c\ub85c \ub2e4\ub978 \ub450 \ubc30\uce58\uc5d0 \ub300\ud574 \ub354\ud55c\ub2e4 \u2014 \uac01\uac01 \uc790\uae30 \uc218\uc758 \uc18d\uc131\uc774\ub77c \ub354\ud558\ub294 \uc758\ubbf8\uac00 \uc5c6\ub2e4.\n\uc2e4\uce21\uc73c\ub85c \uc774 \uaddc\uce59\uc740 \ud0d0\uc0c9 \uc5c6\ub294 CEM \ubcf4\ub2e4 \uc810\uc218\uac00 \ub0ae\uc558\uace0, \ubbf8\ub9ac\ubcf4\uae30\ub97c \uc5c6\uc560 \ud0d0\uc0c9\uc744 \ubd95\uad34\uc2dc\ud0a4\uba74 \uc624\ud788\ub824 \uc810\uc218\uac00 \uc62c\ub790\ub2e4. '\ud0d0\uc0c9\uc744 \uaed0\ub354\ub2c8 \uc88b\uc544\uc84c\ub2e4'\ub294 \ud0d0\uc0c9\uc774 \ub3c4\uc6c0\uc774 \uc548 \ub41c\ub2e4\ub294 \ub73b\uc774 \uc544\ub2c8\ub77c \ud3c9\uac00 \uaddc\uce59\uc774 \ud2c0\ub838\ub2e4\ub294 \uc2e0\ud638\ub2e4. \ubb34\uc5c7\uc744 \uc65c \uace0\ucce4\ub294\uc9c0 \ub0a8\uae30\ub824\uace0 \ubcf4\uc874\ud55c\ub2e4.",
+  "critic_role_ko_headline": "\ud3d0\uae30\ub41c \ud0d0\uc0c9 \uaddc\uce59 \u2014 \uae30\ub85d\uc6a9\uc73c\ub85c\ub9cc \ub0a8\uae34\ub2e4",
+  "update_formula": "score(p\u2081) = w \u00b7 f(p\u2081 \uc774\ud6c4) + max over p\u2082 of w \u00b7 f(p\u2081 \u2192 p\u2082 \uc774\ud6c4)   \u2190 \ud3d0\uae30",
+  "eval_training": {
+   "seeds": [
+    900001,
+    900002,
+    900003,
+    900004,
+    900005,
+    900006,
+    900007,
+    900008,
+    900009,
+    900010
+   ],
+   "lines": [
+    1198,
+    1198,
+    1198,
+    1198,
+    1198,
+    1199,
+    1199,
+    1199,
+    1199,
+    1198
+   ],
+   "pieces": [
+    3000,
+    3000,
+    3000,
+    3000,
+    3000,
+    3000,
+    3000,
+    3000,
+    3000,
+    3000
+   ],
+   "mean_lines": 1198.4,
+   "min_lines": 1198,
+   "max_lines": 1199
+  }
+ }
+}

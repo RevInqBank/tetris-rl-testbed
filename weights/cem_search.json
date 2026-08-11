@@ -1,0 +1,1284 @@
+{
+ "name": "cem_search",
+ "kind": "linear",
+ "features": [
+  "landing_height",
+  "eroded_piece_cells",
+  "row_transitions",
+  "column_transitions",
+  "holes",
+  "cumulative_wells",
+  "aggregate_height",
+  "bumpiness"
+ ],
+ "weights": [
+  -0.2790227725003309,
+  -0.18518328164324607,
+  -0.2283874622835278,
+  -0.3978315698003816,
+  -0.5477988857815644,
+  -0.3376172853801179,
+  -0.4834510806972712,
+  -0.17212976410138425
+ ],
+ "meta": {
+  "trained_at": "2026-08-07T12:11:50+00:00",
+  "algorithm": "cross-entropy method (no critic, no gradient)",
+  "critic_role": "\uc5c6\uc74c \u2014 \uc9c4\ud654\uc804\ub7b5\uc774 \uac00\uc911\uce58 \uacf5\uac04\uc744 \uc9c1\uc811 \ud0d0\uc0c9\ud55c\ub2e4. \uac00\uce58\ud568\uc218\ub3c4, \uacbd\uc0ac\ub3c4, \uc2dc\uac04\ucc28\ub3c4 \uc5c6\ub2e4.",
+  "episodes": 43,
+  "history": [
+   {
+    "generation": 0,
+    "objective": "lines",
+    "piece_cap": 100,
+    "seeds": [
+     80436,
+     26697,
+     54393,
+     22731,
+     12076,
+     23738
+    ],
+    "mean_fitness": 4.454861111111111,
+    "elite_mean_fitness": 29.119047619047617,
+    "best_fitness": 37.166666666666664,
+    "sigma_norm": 3.190322474458973,
+    "elapsed_s": 9.7
+   },
+   {
+    "generation": 1,
+    "objective": "lines",
+    "piece_cap": 100,
+    "seeds": [
+     67880,
+     91640,
+     86197,
+     39658,
+     92504,
+     17550
+    ],
+    "mean_fitness": 3.1770833333333335,
+    "elite_mean_fitness": 17.76190476190476,
+    "best_fitness": 34.666666666666664,
+    "sigma_norm": 2.8843865669535247,
+    "elapsed_s": 19.1
+   },
+   {
+    "generation": 2,
+    "objective": "lines",
+    "piece_cap": 100,
+    "seeds": [
+     54698,
+     91182,
+     2154,
+     86945,
+     26639,
+     85699
+    ],
+    "mean_fitness": 9.590277777777777,
+    "elite_mean_fitness": 34.04761904761905,
+    "best_fitness": 36.833333333333336,
+    "sigma_norm": 2.0421799919132595,
+    "elapsed_s": 28.7
+   },
+   {
+    "generation": 3,
+    "objective": "lines",
+    "piece_cap": 100,
+    "seeds": [
+     37088,
+     16896,
+     53980,
+     93621,
+     498,
+     36236
+    ],
+    "mean_fitness": 10.986111111111109,
+    "elite_mean_fitness": 33.42857142857142,
+    "best_fitness": 36.666666666666664,
+    "sigma_norm": 3.1652853102997964,
+    "elapsed_s": 39.9
+   },
+   {
+    "generation": 4,
+    "objective": "lines",
+    "piece_cap": 100,
+    "seeds": [
+     8077,
+     42986,
+     39462,
+     61779,
+     28430,
+     61992
+    ],
+    "mean_fitness": 9.385416666666666,
+    "elite_mean_fitness": 35.69047619047619,
+    "best_fitness": 37.333333333333336,
+    "sigma_norm": 2.4115413832664987,
+    "elapsed_s": 50.2
+   },
+   {
+    "generation": 5,
+    "objective": "lines",
+    "piece_cap": 100,
+    "seeds": [
+     21385,
+     63973,
+     77892,
+     32232,
+     50682,
+     24235
+    ],
+    "mean_fitness": 12.486111111111112,
+    "elite_mean_fitness": 35.88095238095238,
+    "best_fitness": 37.166666666666664,
+    "sigma_norm": 2.245172673063354,
+    "elapsed_s": 61.1
+   },
+   {
+    "generation": 6,
+    "objective": "lines",
+    "piece_cap": 100,
+    "seeds": [
+     3948,
+     8153,
+     87675,
+     76796,
+     48959,
+     83297
+    ],
+    "mean_fitness": 8.451388888888888,
+    "elite_mean_fitness": 32.69047619047619,
+    "best_fitness": 35.666666666666664,
+    "sigma_norm": 3.4407343507202044,
+    "elapsed_s": 72.2
+   },
+   {
+    "generation": 7,
+    "objective": "lines",
+    "piece_cap": 100,
+    "seeds": [
+     10734,
+     60278,
+     72565,
+     86074,
+     38897,
+     56671
+    ],
+    "mean_fitness": 6.590277777777778,
+    "elite_mean_fitness": 33.404761904761905,
+    "best_fitness": 37.5,
+    "sigma_norm": 2.350672057940388,
+    "elapsed_s": 83.4
+   },
+   {
+    "generation": 8,
+    "objective": "lines",
+    "piece_cap": 100,
+    "seeds": [
+     56092,
+     10371,
+     62007,
+     24661,
+     24529,
+     52289
+    ],
+    "mean_fitness": 10.003472222222223,
+    "elite_mean_fitness": 34.595238095238095,
+    "best_fitness": 36.833333333333336,
+    "sigma_norm": 3.163446409370779,
+    "elapsed_s": 94.0
+   },
+   {
+    "generation": 9,
+    "objective": "lines",
+    "piece_cap": 100,
+    "seeds": [
+     72124,
+     95502,
+     6948,
+     87771,
+     6080,
+     34726
+    ],
+    "mean_fitness": 7.2256944444444455,
+    "elite_mean_fitness": 31.952380952380956,
+    "best_fitness": 37.333333333333336,
+    "sigma_norm": 2.018432063405484,
+    "elapsed_s": 104.7
+   },
+   {
+    "generation": 10,
+    "objective": "lines",
+    "piece_cap": 100,
+    "seeds": [
+     47753,
+     56704,
+     85870,
+     2932,
+     55111,
+     30753
+    ],
+    "mean_fitness": 12.097222222222221,
+    "elite_mean_fitness": 35.404761904761905,
+    "best_fitness": 37.333333333333336,
+    "sigma_norm": 3.0723413712849643,
+    "elapsed_s": 115.4
+   },
+   {
+    "generation": 11,
+    "objective": "lines",
+    "piece_cap": 100,
+    "seeds": [
+     32268,
+     14503,
+     15947,
+     61690,
+     94350,
+     15035
+    ],
+    "mean_fitness": 5.5,
+    "elite_mean_fitness": 27.21428571428571,
+    "best_fitness": 36.666666666666664,
+    "sigma_norm": 2.7001297418428374,
+    "elapsed_s": 125.8
+   },
+   {
+    "generation": 12,
+    "objective": "lines",
+    "piece_cap": 100,
+    "seeds": [
+     3479,
+     80828,
+     79675,
+     37330,
+     89799,
+     58511
+    ],
+    "mean_fitness": 11.954861111111109,
+    "elite_mean_fitness": 35.99999999999999,
+    "best_fitness": 38.166666666666664,
+    "sigma_norm": 2.2232524386430264,
+    "elapsed_s": 136.9
+   },
+   {
+    "generation": 13,
+    "objective": "lines",
+    "piece_cap": 100,
+    "seeds": [
+     417,
+     38636,
+     27031,
+     6348,
+     8225,
+     7518
+    ],
+    "mean_fitness": 7.743055555555557,
+    "elite_mean_fitness": 34.5,
+    "best_fitness": 37.333333333333336,
+    "sigma_norm": 2.87081597302589,
+    "elapsed_s": 145.8
+   },
+   {
+    "generation": 14,
+    "objective": "lines",
+    "piece_cap": 100,
+    "seeds": [
+     51988,
+     88789,
+     90668,
+     34915,
+     10648,
+     25752
+    ],
+    "mean_fitness": 9.288194444444445,
+    "elite_mean_fitness": 34.714285714285715,
+    "best_fitness": 36.0,
+    "sigma_norm": 2.046943003663948,
+    "elapsed_s": 154.6
+   },
+   {
+    "generation": 15,
+    "objective": "lines",
+    "piece_cap": 100,
+    "seeds": [
+     59159,
+     64887,
+     81903,
+     98558,
+     35750,
+     80733
+    ],
+    "mean_fitness": 13.076388888888888,
+    "elite_mean_fitness": 36.11904761904761,
+    "best_fitness": 37.5,
+    "sigma_norm": 2.5787950065182668,
+    "elapsed_s": 161.8
+   },
+   {
+    "generation": 16,
+    "objective": "lines",
+    "piece_cap": 100,
+    "seeds": [
+     92329,
+     47549,
+     57374,
+     24212,
+     59430,
+     4780
+    ],
+    "mean_fitness": 11.663194444444445,
+    "elite_mean_fitness": 36.83333333333333,
+    "best_fitness": 37.5,
+    "sigma_norm": 2.120157214494792,
+    "elapsed_s": 170.2
+   },
+   {
+    "generation": 17,
+    "objective": "lines",
+    "piece_cap": 200,
+    "seeds": [
+     61167,
+     25391,
+     63791,
+     71453,
+     94639,
+     56513
+    ],
+    "mean_fitness": 24.35763888888889,
+    "elite_mean_fitness": 76.57142857142857,
+    "best_fitness": 77.83333333333333,
+    "sigma_norm": 2.272817913312932,
+    "elapsed_s": 185.6
+   },
+   {
+    "generation": 18,
+    "objective": "lines",
+    "piece_cap": 200,
+    "seeds": [
+     89093,
+     3260,
+     99018,
+     71439,
+     77587,
+     40605
+    ],
+    "mean_fitness": 21.409722222222218,
+    "elite_mean_fitness": 75.45238095238095,
+    "best_fitness": 77.33333333333333,
+    "sigma_norm": 2.302641398598581,
+    "elapsed_s": 198.8
+   },
+   {
+    "generation": 19,
+    "objective": "lines",
+    "piece_cap": 200,
+    "seeds": [
+     82258,
+     70959,
+     66168,
+     25985,
+     1191,
+     29032
+    ],
+    "mean_fitness": 20.3125,
+    "elite_mean_fitness": 73.5,
+    "best_fitness": 77.0,
+    "sigma_norm": 2.2325268070706237,
+    "elapsed_s": 211.8
+   },
+   {
+    "generation": 20,
+    "objective": "lines",
+    "piece_cap": 200,
+    "seeds": [
+     3388,
+     88507,
+     52193,
+     46392,
+     54686,
+     26722
+    ],
+    "mean_fitness": 19.70486111111111,
+    "elite_mean_fitness": 72.14285714285714,
+    "best_fitness": 75.83333333333333,
+    "sigma_norm": 2.5265781006434076,
+    "elapsed_s": 223.1
+   },
+   {
+    "generation": 21,
+    "objective": "lines",
+    "piece_cap": 200,
+    "seeds": [
+     37697,
+     43362,
+     29675,
+     5349,
+     30195,
+     20513
+    ],
+    "mean_fitness": 15.631944444444445,
+    "elite_mean_fitness": 68.97619047619048,
+    "best_fitness": 76.33333333333333,
+    "sigma_norm": 2.0396127389506735,
+    "elapsed_s": 234.0
+   },
+   {
+    "generation": 22,
+    "objective": "lines",
+    "piece_cap": 200,
+    "seeds": [
+     94695,
+     75304,
+     82670,
+     13396,
+     1424,
+     19416
+    ],
+    "mean_fitness": 20.527777777777775,
+    "elite_mean_fitness": 73.21428571428571,
+    "best_fitness": 76.33333333333333,
+    "sigma_norm": 2.4314982292684775,
+    "elapsed_s": 246.2
+   },
+   {
+    "generation": 23,
+    "objective": "lines",
+    "piece_cap": 200,
+    "seeds": [
+     42950,
+     74161,
+     60116,
+     51516,
+     22582,
+     9874
+    ],
+    "mean_fitness": 9.645833333333334,
+    "elite_mean_fitness": 61.047619047619044,
+    "best_fitness": 76.83333333333333,
+    "sigma_norm": 2.51479693253944,
+    "elapsed_s": 257.2
+   },
+   {
+    "generation": 24,
+    "objective": "lines",
+    "piece_cap": 200,
+    "seeds": [
+     41468,
+     19147,
+     66993,
+     94350,
+     36277,
+     43885
+    ],
+    "mean_fitness": 18.15277777777778,
+    "elite_mean_fitness": 72.26190476190476,
+    "best_fitness": 76.16666666666667,
+    "sigma_norm": 2.1256094764287305,
+    "elapsed_s": 268.5
+   },
+   {
+    "generation": 25,
+    "objective": "lines",
+    "piece_cap": 200,
+    "seeds": [
+     99866,
+     92748,
+     96020,
+     40595,
+     97455,
+     65039
+    ],
+    "mean_fitness": 20.517361111111114,
+    "elite_mean_fitness": 72.88095238095238,
+    "best_fitness": 75.16666666666667,
+    "sigma_norm": 1.9119501117897373,
+    "elapsed_s": 280.2
+   },
+   {
+    "generation": 26,
+    "objective": "lines",
+    "piece_cap": 200,
+    "seeds": [
+     53203,
+     68819,
+     21207,
+     18166,
+     73445,
+     1179
+    ],
+    "mean_fitness": 17.53125,
+    "elite_mean_fitness": 73.02380952380952,
+    "best_fitness": 76.83333333333333,
+    "sigma_norm": 2.4684406189816617,
+    "elapsed_s": 291.4
+   },
+   {
+    "generation": 27,
+    "objective": "lines",
+    "piece_cap": 200,
+    "seeds": [
+     25725,
+     70620,
+     89696,
+     21182,
+     14166,
+     6492
+    ],
+    "mean_fitness": 17.92361111111111,
+    "elite_mean_fitness": 75.76190476190474,
+    "best_fitness": 77.0,
+    "sigma_norm": 1.7845638069309784,
+    "elapsed_s": 303.9
+   },
+   {
+    "generation": 28,
+    "objective": "lines",
+    "piece_cap": 200,
+    "seeds": [
+     18462,
+     55185,
+     81809,
+     37554,
+     26592,
+     90585
+    ],
+    "mean_fitness": 29.291666666666668,
+    "elite_mean_fitness": 75.52380952380953,
+    "best_fitness": 76.83333333333333,
+    "sigma_norm": 2.2853443271967357,
+    "elapsed_s": 317.3
+   },
+   {
+    "generation": 29,
+    "objective": "lines",
+    "piece_cap": 200,
+    "seeds": [
+     65676,
+     88382,
+     75749,
+     95702,
+     4438,
+     77152
+    ],
+    "mean_fitness": 24.486111111111114,
+    "elite_mean_fitness": 74.35714285714286,
+    "best_fitness": 75.66666666666667,
+    "sigma_norm": 1.7369994968934777,
+    "elapsed_s": 329.8
+   },
+   {
+    "generation": 30,
+    "objective": "lines",
+    "piece_cap": 200,
+    "seeds": [
+     64310,
+     7692,
+     92024,
+     14333,
+     31011,
+     70148
+    ],
+    "mean_fitness": 31.17361111111111,
+    "elite_mean_fitness": 76.54761904761904,
+    "best_fitness": 77.5,
+    "sigma_norm": 1.9097106074272407,
+    "elapsed_s": 342.6
+   },
+   {
+    "generation": 31,
+    "objective": "lines",
+    "piece_cap": 400,
+    "seeds": [
+     73744,
+     3148,
+     73130,
+     53727,
+     74140,
+     69940
+    ],
+    "mean_fitness": 33.03819444444445,
+    "elite_mean_fitness": 133.97619047619045,
+    "best_fitness": 156.5,
+    "sigma_norm": 2.060839770498908,
+    "elapsed_s": 363.1
+   },
+   {
+    "generation": 32,
+    "objective": "lines",
+    "piece_cap": 400,
+    "seeds": [
+     78519,
+     55853,
+     86590,
+     67028,
+     55294,
+     94721
+    ],
+    "mean_fitness": 14.809027777777777,
+    "elite_mean_fitness": 84.76190476190474,
+    "best_fitness": 156.66666666666666,
+    "sigma_norm": 1.9785950431855,
+    "elapsed_s": 382.9
+   },
+   {
+    "generation": 33,
+    "objective": "lines",
+    "piece_cap": 400,
+    "seeds": [
+     49378,
+     24251,
+     71771,
+     26896,
+     99833,
+     21536
+    ],
+    "mean_fitness": 42.46875,
+    "elite_mean_fitness": 142.07142857142858,
+    "best_fitness": 157.33333333333334,
+    "sigma_norm": 1.63429556763718,
+    "elapsed_s": 403.0
+   },
+   {
+    "generation": 34,
+    "objective": "lines",
+    "piece_cap": 400,
+    "seeds": [
+     93620,
+     37963,
+     78720,
+     72870,
+     94516,
+     1135
+    ],
+    "mean_fitness": 36.61805555555556,
+    "elite_mean_fitness": 151.26190476190476,
+    "best_fitness": 158.0,
+    "sigma_norm": 2.344779392953331,
+    "elapsed_s": 425.0
+   },
+   {
+    "generation": 35,
+    "objective": "lines",
+    "piece_cap": 400,
+    "seeds": [
+     19078,
+     34969,
+     46966,
+     11240,
+     58409,
+     9008
+    ],
+    "mean_fitness": 22.121527777777782,
+    "elite_mean_fitness": 114.09523809523809,
+    "best_fitness": 157.66666666666666,
+    "sigma_norm": 1.8888449417213555,
+    "elapsed_s": 445.2
+   },
+   {
+    "generation": 36,
+    "objective": "lines",
+    "piece_cap": 400,
+    "seeds": [
+     93895,
+     49493,
+     53102,
+     34073,
+     52466,
+     41095
+    ],
+    "mean_fitness": 29.625,
+    "elite_mean_fitness": 143.1904761904762,
+    "best_fitness": 158.5,
+    "sigma_norm": 1.6499015833431063,
+    "elapsed_s": 465.4
+   },
+   {
+    "generation": 37,
+    "objective": "lines",
+    "piece_cap": 400,
+    "seeds": [
+     51654,
+     21106,
+     8530,
+     55859,
+     36898,
+     19514
+    ],
+    "mean_fitness": 43.447916666666664,
+    "elite_mean_fitness": 138.45238095238093,
+    "best_fitness": 156.0,
+    "sigma_norm": 1.7079872386687678,
+    "elapsed_s": 487.4
+   },
+   {
+    "generation": 38,
+    "objective": "lines",
+    "piece_cap": 400,
+    "seeds": [
+     70364,
+     20844,
+     15137,
+     30736,
+     12207,
+     43192
+    ],
+    "mean_fitness": 43.53125,
+    "elite_mean_fitness": 147.76190476190476,
+    "best_fitness": 158.16666666666666,
+    "sigma_norm": 1.640481847996389,
+    "elapsed_s": 510.2
+   },
+   {
+    "generation": 39,
+    "objective": "lines",
+    "piece_cap": 800,
+    "seeds": [
+     39819,
+     73369,
+     87945,
+     82390,
+     31501,
+     29558
+    ],
+    "mean_fitness": 63.506944444444436,
+    "elite_mean_fitness": 265.2857142857143,
+    "best_fitness": 318.1666666666667,
+    "sigma_norm": 1.8255298395331683,
+    "elapsed_s": 552.3
+   },
+   {
+    "generation": 40,
+    "objective": "lines",
+    "piece_cap": 800,
+    "seeds": [
+     47758,
+     29968,
+     13191,
+     10969,
+     5987,
+     39340
+    ],
+    "mean_fitness": 72.81597222222223,
+    "elite_mean_fitness": 307.5952380952381,
+    "best_fitness": 317.3333333333333,
+    "sigma_norm": 1.2148371090966257,
+    "elapsed_s": 592.6
+   },
+   {
+    "generation": 41,
+    "objective": "lines",
+    "piece_cap": 800,
+    "seeds": [
+     31796,
+     92590,
+     84566,
+     60732,
+     7563,
+     38930
+    ],
+    "mean_fitness": 101.3298611111111,
+    "elite_mean_fitness": 317.09523809523813,
+    "best_fitness": 318.5,
+    "sigma_norm": 1.7948922881667413,
+    "elapsed_s": 636.2
+   },
+   {
+    "generation": 42,
+    "objective": "lines",
+    "piece_cap": 800,
+    "seeds": [
+     18105,
+     5626,
+     191,
+     75830,
+     94014,
+     24284
+    ],
+    "mean_fitness": 45.927083333333336,
+    "elite_mean_fitness": 230.78571428571428,
+    "best_fitness": 284.5,
+    "sigma_norm": 1.6575248486749912,
+    "elapsed_s": 673.0
+   }
+  ],
+  "eval": {
+   "median_lines": 1199.0,
+   "mean_lines": 1198.7,
+   "min_lines": 1198,
+   "max_lines": 1199,
+   "median_score": 8483100.0,
+   "median_norm_score_per_piece": 46.88333333333333,
+   "median_tetris_rate": 0.0,
+   "mean_over_median_lines": 0.9997497914929108,
+   "n": 10,
+   "hit_cap_count": 10,
+   "evaluated_at": "2026-08-07T12:47:54+00:00",
+   "seeds": [
+    900001,
+    900002,
+    900003,
+    900004,
+    900005,
+    900006,
+    900007,
+    900008,
+    900009,
+    900010
+   ],
+   "piece_cap": 3000,
+   "difficulty": "normal",
+   "mean_score": 8490435.0,
+   "mean_score_per_piece": 2830.1449999999995,
+   "mean_norm_score_per_piece": 46.848333333333336,
+   "mean_tetris_rate": 0.0,
+   "mean_pieces": 3000.0,
+   "games_hit_cap": 10,
+   "n_games": 10,
+   "saturated": true,
+   "evaluated_on": "engine",
+   "per_game": [
+    {
+     "seed": 900001,
+     "difficulty": 0,
+     "lines": 1199,
+     "score": 8429450,
+     "pieces": 3000,
+     "died": false,
+     "hit_cap": true,
+     "score_per_piece": 2809.8166666666666,
+     "norm_score_per_piece": 46.45,
+     "tetris_rate": 0.0,
+     "clears_by_n": [
+      1885,
+      1032,
+      82,
+      1,
+      0
+     ],
+     "seconds": 275.58
+    },
+    {
+     "seed": 900002,
+     "difficulty": 0,
+     "lines": 1199,
+     "score": 8531550,
+     "pieces": 3000,
+     "died": false,
+     "hit_cap": true,
+     "score_per_piece": 2843.85,
+     "norm_score_per_piece": 47.25,
+     "tetris_rate": 0.0,
+     "clears_by_n": [
+      1889,
+      1024,
+      86,
+      1,
+      0
+     ],
+     "seconds": 288.95
+    },
+    {
+     "seed": 900003,
+     "difficulty": 0,
+     "lines": 1198,
+     "score": 8571950,
+     "pieces": 3000,
+     "died": false,
+     "hit_cap": true,
+     "score_per_piece": 2857.3166666666666,
+     "norm_score_per_piece": 47.0,
+     "tetris_rate": 0.0,
+     "clears_by_n": [
+      1897,
+      1009,
+      93,
+      1,
+      0
+     ],
+     "seconds": 289.58
+    },
+    {
+     "seed": 900004,
+     "difficulty": 0,
+     "lines": 1199,
+     "score": 8440350,
+     "pieces": 3000,
+     "died": false,
+     "hit_cap": true,
+     "score_per_piece": 2813.45,
+     "norm_score_per_piece": 46.766666666666666,
+     "tetris_rate": 0.0,
+     "clears_by_n": [
+      1892,
+      1018,
+      89,
+      1,
+      0
+     ],
+     "seconds": 293.11
+    },
+    {
+     "seed": 900005,
+     "difficulty": 0,
+     "lines": 1199,
+     "score": 8450650,
+     "pieces": 3000,
+     "died": false,
+     "hit_cap": true,
+     "score_per_piece": 2816.883333333333,
+     "norm_score_per_piece": 46.4,
+     "tetris_rate": 0.0,
+     "clears_by_n": [
+      1887,
+      1028,
+      84,
+      1,
+      0
+     ],
+     "seconds": 288.83
+    },
+    {
+     "seed": 900006,
+     "difficulty": 0,
+     "lines": 1198,
+     "score": 8429850,
+     "pieces": 3000,
+     "died": false,
+     "hit_cap": true,
+     "score_per_piece": 2809.95,
+     "norm_score_per_piece": 46.666666666666664,
+     "tetris_rate": 0.0,
+     "clears_by_n": [
+      1891,
+      1022,
+      85,
+      2,
+      0
+     ],
+     "seconds": 277.37
+    },
+    {
+     "seed": 900007,
+     "difficulty": 0,
+     "lines": 1199,
+     "score": 8458550,
+     "pieces": 3000,
+     "died": false,
+     "hit_cap": true,
+     "score_per_piece": 2819.516666666667,
+     "norm_score_per_piece": 46.45,
+     "tetris_rate": 0.0,
+     "clears_by_n": [
+      1895,
+      1011,
+      94,
+      0,
+      0
+     ],
+     "seconds": 272.7
+    },
+    {
+     "seed": 900008,
+     "difficulty": 0,
+     "lines": 1198,
+     "score": 8519100,
+     "pieces": 3000,
+     "died": false,
+     "hit_cap": true,
+     "score_per_piece": 2839.7,
+     "norm_score_per_piece": 47.1,
+     "tetris_rate": 0.0,
+     "clears_by_n": [
+      1888,
+      1026,
+      86,
+      0,
+      0
+     ],
+     "seconds": 288.55
+    },
+    {
+     "seed": 900009,
+     "difficulty": 0,
+     "lines": 1199,
+     "score": 8507650,
+     "pieces": 3000,
+     "died": false,
+     "hit_cap": true,
+     "score_per_piece": 2835.883333333333,
+     "norm_score_per_piece": 47.18333333333333,
+     "tetris_rate": 0.0,
+     "clears_by_n": [
+      1894,
+      1013,
+      93,
+      0,
+      0
+     ],
+     "seconds": 284.26
+    },
+    {
+     "seed": 900010,
+     "difficulty": 0,
+     "lines": 1199,
+     "score": 8565250,
+     "pieces": 3000,
+     "died": false,
+     "hit_cap": true,
+     "score_per_piece": 2855.0833333333335,
+     "norm_score_per_piece": 47.21666666666667,
+     "tetris_rate": 0.0,
+     "clears_by_n": [
+      1880,
+      1043,
+      75,
+      2,
+      0
+     ],
+     "seconds": 294.48
+    }
+   ],
+   "source": "evaluate.py (engine)"
+  },
+  "parity_verified": true,
+  "objective": "lines",
+  "selected": "distribution_mean",
+  "eval_piece_cap": 3000,
+  "train_seed_range": [
+   1,
+   100000
+  ],
+  "holdout_seed_range": [
+   900001,
+   900010
+  ],
+  "eval_distribution_mean": {
+   "seeds": [
+    900001,
+    900002,
+    900003,
+    900004,
+    900005,
+    900006,
+    900007,
+    900008,
+    900009,
+    900010
+   ],
+   "lines": [
+    1197,
+    1198,
+    1197,
+    1198,
+    1198,
+    1197,
+    1084,
+    807,
+    557,
+    1195
+   ],
+   "score": [
+    8941750,
+    9104800,
+    9182400,
+    8972800,
+    8962200,
+    9070700,
+    7323500,
+    4084400,
+    1949750,
+    8944500
+   ],
+   "pieces": [
+    3000,
+    3000,
+    3000,
+    3000,
+    3000,
+    3000,
+    2749,
+    2061,
+    1433,
+    3000
+   ],
+   "hit_cap": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    true
+   ],
+   "mean_lines": 1082.8,
+   "min_lines": 557,
+   "max_lines": 1198,
+   "mean_score": 7653680.0,
+   "mean_score_per_piece": 2706.6139871576547,
+   "mean_norm_score_per_piece": 49.350546051408735,
+   "mean_tetris_rate": 0.00033416875522138676,
+   "evaluated_on": "fastsim (in-training check; evaluate.py is authoritative)"
+  },
+  "eval_best_candidate": {
+   "seeds": [
+    900001,
+    900002,
+    900003,
+    900004,
+    900005,
+    900006,
+    900007,
+    900008,
+    900009,
+    900010
+   ],
+   "lines": [
+    1197,
+    1198,
+    1198,
+    1195,
+    1197,
+    1198,
+    1194,
+    1199,
+    1198,
+    1199
+   ],
+   "score": [
+    8987700,
+    9107550,
+    9025450,
+    9021050,
+    9086200,
+    9198100,
+    9003750,
+    9095100,
+    9018250,
+    8993350
+   ],
+   "pieces": [
+    3000,
+    3000,
+    3000,
+    3000,
+    3000,
+    3000,
+    3000,
+    3000,
+    3000,
+    3000
+   ],
+   "hit_cap": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "mean_lines": 1197.3,
+   "min_lines": 1194,
+   "max_lines": 1199,
+   "mean_score": 9053650.0,
+   "mean_score_per_piece": 3017.883333333333,
+   "mean_norm_score_per_piece": 50.093333333333334,
+   "mean_tetris_rate": 0.000667779632721202,
+   "evaluated_on": "fastsim (in-training check; evaluate.py is authoritative)"
+  },
+  "generations_run": 43,
+  "collapsed_at_generation": null,
+  "sigma_min": 0.02,
+  "wall_clock_budget_s": 660.0,
+  "trained_with_search": true,
+  "search": {
+   "plies": 2,
+   "uses_next_piece": true,
+   "rule": "leaf",
+   "formula": "score(p1) = max_p2 v(after p1 -> p2)",
+   "trained_in_the_loop": true,
+   "note": "Fitted WITH the search in the rollout; must be run with the search."
+  },
+  "critic_role_ko": "\ud328\ub110 8\uc740 CEM\uc774 **1\uc2a4\ud15d \uadf8\ub9ac\ub514\uc6a9\uc73c\ub85c** \ub9de\ucd98 \uac00\uc911\uce58\ub97c 2\uc218 \ud0d0\uc0c9\uc5d0 \uac16\ub2e4 \uc4f4 \uac83\uc774\ub77c, \uac00\uce58\ud568\uc218\uac00 \uc790\uae30\uac00 \uc4f0\uc77c \uae4a\uc774\uc5d0\uc11c \uc88b\ub3c4\ub85d \ud559\uc2b5\ub41c \uc801\uc774 \uc5c6\uc5c8\ub2e4. \uadf8\ub798\uc11c \ud0d0\uc0c9\uc774 \uc624\ud788\ub824 \uc190\ud574\uc600\ub2e4.\n\uc5ec\uae30\uc11c\ub294 \ub864\uc544\uc6c3 \uc790\uccb4\uac00 2\uc218 \ud0d0\uc0c9\uc73c\ub85c \uc218\ub97c \uace0\ub978\ub2e4. \uc989 CEM\uc774 **\ud0d0\uc0c9 \uc815\ucc45\uc758 \uac00\uce58\ud568\uc218\ub97c** \ucc3e\ub294\ub2e4. \ud0d0\uc0c9 \uc774\ub4dd\uc744 \ub9d0\ud558\ub824\uba74 \uc774 \uc870\uac74\uc774\uc5b4\uc57c \ud55c\ub2e4.\n\ub300\uac00\ub294 \ube44\uc6a9\uc774\ub2e4 \u2014 \ubc30\uce58\ub9c8\ub2e4 \uc57d 25\ubc30 \ub290\ub824\uc11c \uac19\uc740 \uc608\uc0b0\uc5d0 \ud6e8\uc52c \uc801\uc740 \uac8c\uc784\ubc16\uc5d0 \ubabb \ubcf8\ub2e4. AlphaZero\uac00 \uc790\uae30\ub300\uad6d\uc5d0 \ub9c9\ub300\ud55c \uacc4\uc0b0\uc744 \uc4f0\ub294 \uc774\uc720\uac00 \uc774\uac83\uc774\ub2e4: \ud0d0\uc0c9\uc774 \uc815\ucc45 \uac1c\uc120\uc744 \ud558\ub824\uba74 \uadf8 \ud0d0\uc0c9\uc744 \ud559\uc2b5 \ub8e8\ud504 \uc548\uc5d0 \ub123\uc5b4\uc57c \ud558\uace0, \uadf8 \uc21c\uac04 \ube44\uc2f8\uc9c4\ub2e4.",
+  "critic_role_ko_headline": "\ud0d0\uc0c9\uc744 \ub123\uace0 \ud559\uc2b5\ud55c \uac00\uce58 \u2014 \ud328\ub110 8\uc758 \uad50\ub780 \uc694\uc778\uc744 \uc81c\uac70\ud55c \uac83",
+  "update_formula": "\ub864\uc544\uc6c3\uc758 \uc218 \uc120\ud0dd = argmax_p\u2081 max_p\u2082 v(p\u2081\u2192p\u2082 \uc774\ud6c4)   (\uadf8\ub9ac\ub514\uac00 \uc544\ub2c8\ub2e4)",
+  "selection_note": "distribution_mean \uc73c\ub85c \uad50\uccb4\ud588\ub2e4. best_single_candidate \ub294 \uc138\ub300\ubcc4 \ud3c9\uac00 \uc2dc\ub4dc\uac00 \ubc14\ub00c\ub294 \ud0d3\uc5d0 '\uc6b4 \uc88b\uc740 \uc138\ub300'\uc758 \uac00\uc911\uce58\ub97c \ubf51\uc744 \uc218 \uc788\ub2e4 \u2014 \ud2b9\ud788 \ud0d0\uc0c9 \ubd84\ud3ec\uac00 \uc881\uc544\uc9c4 \ub4a4\uc5d0\ub294 fitness \ubcc0\ub3d9\uc774 \ud559\uc2b5\uc774 \uc544\ub2c8\ub77c \uc2dc\ub4dc \ub178\uc774\uc988\ub2e4. \ubd84\ud3ec \ud3c9\uade0\uc740 \uadf8 \ubd09\uc6b0\ub9ac\ub97c \ucc44\ud0dd\ud558\uc9c0 \uc54a\ub294\ub2e4.",
+  "eval_training": {
+   "seeds": [
+    900001,
+    900002,
+    900003,
+    900004,
+    900005,
+    900006,
+    900007,
+    900008,
+    900009,
+    900010
+   ],
+   "lines": [
+    1197,
+    1198,
+    1197,
+    1198,
+    1198,
+    1197,
+    1084,
+    807,
+    557,
+    1195
+   ],
+   "score": [
+    8941750,
+    9104800,
+    9182400,
+    8972800,
+    8962200,
+    9070700,
+    7323500,
+    4084400,
+    1949750,
+    8944500
+   ],
+   "pieces": [
+    3000,
+    3000,
+    3000,
+    3000,
+    3000,
+    3000,
+    2749,
+    2061,
+    1433,
+    3000
+   ],
+   "hit_cap": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    true
+   ],
+   "mean_lines": 1082.8,
+   "min_lines": 557,
+   "max_lines": 1198,
+   "mean_score": 7653680.0,
+   "mean_score_per_piece": 2706.6139871576547,
+   "mean_norm_score_per_piece": 49.350546051408735,
+   "mean_tetris_rate": 0.00033416875522138676,
+   "evaluated_on": "fastsim (in-training check; evaluate.py is authoritative)"
+  }
+ }
+}

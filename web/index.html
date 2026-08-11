@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>Tetris RL Lab</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+
+  <!-- ================= TOP BAR ================= -->
+  <div id="topbar">
+    <div id="brand">Tetris RL Lab<span class="sub">크리틱은 갱신식의 어디에 들어가는가</span></div>
+
+    <div id="tabs">
+      <button class="tab active" data-screen="play">플레이<span class="tab-hint">직접 조작 · AI 대리</span></button>
+      <button class="tab" data-screen="arena">전략 비교<span class="tab-hint">8개 동시 실행</span></button>
+      <button class="tab" data-screen="learn">크리틱 지도<span class="tab-hint">공부계획 대응표</span></button>
+    </div>
+
+    <div id="topbar-right">
+      <span id="weights-status" class="none"><span class="dot"></span><span class="txt">가중치 확인 중</span></span>
+      <span id="load-warning" class="tag warn" style="display:none"></span>
+    </div>
+  </div>
+
+  <!-- ================= SCREENS ================= -->
+  <div id="screens">
+
+    <!-- ---------- ① PLAY ---------- -->
+    <div class="screen active" id="screen-play">
+
+      <div id="play-left">
+        <div class="panel" id="hold-panel">
+          <h3>홀드</h3>
+          <canvas id="hold-canvas" class="mini-canvas" width="120" height="76"></canvas>
+        </div>
+
+        <div class="panel">
+          <h3>기록</h3>
+          <div id="combo-row"><span id="b2b-tag" class="tag good" style="display:none">B2B</span><span id="combo-tag" class="tag warn" style="display:none"></span></div>
+          <div class="stat-row"><span class="k">점수</span><span class="v big" id="st-score">0</span></div>
+          <div class="stat-row"><span class="k">지운 줄</span><span class="v" id="st-lines">0</span></div>
+          <div class="stat-row"><span class="k">레벨</span><span class="v" id="st-level">1</span></div>
+          <div class="stat-row"><span class="k">놓은 조각</span><span class="v" id="st-pieces">0</span></div>
+        </div>
+
+        <div class="panel" id="ai-stats-panel" style="display:none">
+          <h3>AI 누적 통계</h3>
+          <div class="stat-row"><span class="k">게임 수</span><span class="v" id="ai-games">0</span></div>
+          <div class="stat-row"><span class="k">최고 줄 수</span><span class="v" id="ai-best">0</span></div>
+          <div class="stat-row"><span class="k">평균 줄 수</span><span class="v" id="ai-mean">0</span></div>
+          <div class="stat-row"><span class="k">초당 조각</span><span class="v" id="ai-pps">0</span></div>
+        </div>
+
+        <div class="panel" id="key-help">
+          <h3>조작</h3>
+          <div class="row"><span>좌우 이동</span><span><kbd>←</kbd> <kbd>→</kbd></span></div>
+          <div class="row"><span>회전 (시계)</span><span><kbd>↑</kbd> / <kbd>X</kbd></span></div>
+          <div class="row"><span>회전 (반시계)</span><span><kbd>Z</kbd></span></div>
+          <div class="row"><span>소프트 드롭</span><span><kbd>↓</kbd></span></div>
+          <div class="row"><span>하드 드롭</span><span><kbd>Space</kbd></span></div>
+          <div class="row"><span>홀드</span><span><kbd>C</kbd></span></div>
+          <div class="row"><span>일시정지</span><span><kbd>P</kbd></span></div>
+          <div class="row"><span>재시작</span><span><kbd>R</kbd></span></div>
+        </div>
+      </div>
+
+      <div id="play-center">
+        <div id="ai-banner"><span class="pulse"></span><span id="ai-banner-txt">AI 자동 플레이 중</span></div>
+        <div id="difficulty-badge" class="tag warn" style="display:none"></div>
+        <div id="play-board-wrap">
+          <canvas id="play-board" width="320" height="640"></canvas>
+          <div id="play-overlay">
+            <div class="big" id="ov-title">일시정지</div>
+            <div class="small" id="ov-sub">P 키로 계속</div>
+          </div>
+        </div>
+      </div>
+
+      <div id="play-right">
+        <div class="panel">
+          <h3>다음 조각</h3>
+          <div id="next-list"></div>
+          <div id="next-empty" style="display:none;font-size:11px;color:var(--warn);padding:10px 2px;line-height:1.5">미리보기 없음 — 익스트림 모드<br><span class="muted">1수 탐색은 이 모드에서 0수 탐색이 된다.</span></div>
+        </div>
+
+        <div class="panel">
+          <h3>AI 옵션</h3>
+
+          <label class="toggle">
+            <input type="checkbox" id="opt-hint"><span class="track"></span>
+            <span><span class="label">AI 힌트 보기</span>
+              <span class="desc">선택한 정책이 고를 자리를 반투명 표시</span></span>
+          </label>
+
+          <label class="toggle">
+            <input type="checkbox" id="opt-autoplay"><span class="track"></span>
+            <span><span class="label">AI에게 넘기기</span>
+              <span class="desc">무한 플레이 · 게임오버 시 자동 재시작</span></span>
+          </label>
+
+          <div class="hr"></div>
+          <div style="font-size:11px;color:var(--fg-faint);margin-bottom:5px">난이도 (정보량)</div>
+          <select class="sel" id="opt-difficulty"></select>
+          <div id="difficulty-note" style="font-size:10.5px;color:var(--fg-faint);margin-top:4px;line-height:1.5"></div>
+
+          <div class="hr"></div>
+          <div style="font-size:11px;color:var(--fg-faint);margin-bottom:5px">에이전트</div>
+          <select class="sel" id="opt-agent"></select>
+
+          <div style="margin-top:12px">
+            <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--fg-faint)">
+              <span>AI 속도</span><span id="ai-speed-val">보통</span>
+            </div>
+            <input type="range" id="ai-speed" min="0" max="4" step="1" value="2">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ---------- ② ARENA ---------- -->
+    <div class="screen" id="screen-arena">
+
+      <div id="arena-controls">
+        <div class="grp">
+          <button class="btn primary" id="ar-toggle">시작</button>
+          <button class="btn" id="ar-reset">초기화</button>
+        </div>
+
+        <div class="grp">
+          <span class="glabel">실험</span>
+          <select class="sel" id="ar-experiment" style="width:190px">
+            <option value="all8">8전략 비교</option>
+            <option value="difficulty">난이도 3단계 비교</option>
+          </select>
+          <select class="sel" id="ar-diff-strat" style="width:170px;display:none"></select>
+        </div>
+
+        <div class="grp grow">
+          <span class="glabel">속도</span>
+          <input type="range" id="arena-speed" min="0" max="5" step="1" value="2">
+          <span id="arena-speed-val">보통</span>
+        </div>
+
+        <div class="grp">
+          <label class="toggle" style="padding:0">
+            <input type="checkbox" id="ar-same-seed" checked><span class="track"></span>
+            <span class="label">전 패널 동일 시드</span>
+          </label>
+        </div>
+
+        <div class="grp">
+          <span class="glabel">시드</span>
+          <input type="number" id="ar-seed" value="12345"
+                 style="width:92px;padding:6px 8px;border-radius:6px;border:1px solid var(--border-hi);background:var(--bg-inset);color:var(--fg);font-family:var(--mono);font-size:12px">
+        </div>
+
+        <div class="grp">
+          <label class="toggle" style="padding:0">
+            <input type="checkbox" id="ar-autorestart" checked><span class="track"></span>
+            <span class="label">게임오버 시 재시작</span>
+          </label>
+        </div>
+
+        <div class="grp">
+          <label class="toggle" style="padding:0" title="정책 기반(REINFORCE·기준선·A2C)은 argmax 로 평가된 값이 rl 보고 수치다. 끄면 softmax 로 샘플링한다.">
+            <input type="checkbox" id="ar-greedy" checked><span class="track"></span>
+            <span class="label">정책은 탐욕 선택</span>
+          </label>
+        </div>
+      </div>
+
+      <div id="arena-body">
+        <div id="arena-grid"></div>
+
+        <div class="panel" id="arena-board">
+          <h3>리더보드</h3>
+          <div id="lb-metric-tabs">
+            <button class="mt active" data-metric="lines">지운 줄</button>
+            <button class="mt" data-metric="score">점수/조각</button>
+            <button class="mt" data-metric="tetris">테트리스 비율</button>
+          </div>
+          <div id="lb-list"></div>
+          <div class="hr"></div>
+          <div class="stat-row"><span class="k">총 경과</span><span class="v" id="ar-elapsed">0.0초</span></div>
+          <div class="stat-row"><span class="k">총 조각</span><span class="v" id="ar-total-pieces">0</span></div>
+          <div class="stat-row"><span class="k">렌더 FPS</span><span class="v" id="ar-fps">0</span></div>
+          <div class="hr"></div>
+          <div style="font-size:11px;line-height:1.6;color:var(--fg-faint)">
+            동일 시드를 켜면 8개 패널이 <b>같은 조각 순서</b>를 받는다.
+            성적 차이는 오직 정책의 선택 차이에서 나온다.
+            <br><br>
+            줄 수로는 델라체리·CEM·1수 탐색이 갈리지 않는다 (셋 다 안 죽는다).
+            <b>점수/조각</b>과 <b>테트리스 비율</b>이 그 셋을 가르는 축이다.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------- ③ LEARN ---------- -->
+    <div class="screen" id="screen-learn">
+      <div id="learn-axis">
+        <h2>크리틱이 갱신식의 어디에 들어가는가</h2>
+        <div class="axis-sub">
+          아래 세로축은 <b>RL 공부계획</b>의 진행 순서다. 위에서 아래로 갈수록 크리틱이 갱신식에 더 깊이 들어간다.
+          항목을 누르면 그 전략의 갱신식과 크리틱의 역할이 오른쪽에 나오고, 전략 비교 화면에서 단독으로 실행할 수 있다.
+        </div>
+        <div id="axis-list"></div>
+      </div>
+
+      <div id="learn-detail"></div>
+    </div>
+
+  </div><!-- /#screens -->
+</div><!-- /#app -->
+
+<!-- ES modules: the app is served over HTTP (see PROJECT.md "배포 방식"),
+     so import/export is fine and no global-namespace workaround is needed.
+     ui.js pulls in engine.js, policies.js and arena.js. -->
+<script type="module" src="ui.js"></script>
+</body>
+</html>

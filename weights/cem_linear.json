@@ -1,0 +1,1299 @@
+{
+ "name": "cem_linear",
+ "kind": "linear",
+ "features": [
+  "landing_height",
+  "eroded_piece_cells",
+  "row_transitions",
+  "column_transitions",
+  "holes",
+  "cumulative_wells",
+  "aggregate_height",
+  "bumpiness"
+ ],
+ "weights": [
+  -0.33640502806921185,
+  -0.3639994228772844,
+  -0.15623128580926599,
+  -0.8099568826594415,
+  -0.0646780821933724,
+  -0.1806927790300344,
+  -0.13283543019676275,
+  -0.1393532366914061
+ ],
+ "meta": {
+  "trained_at": "2026-08-07T09:49:22+00:00",
+  "algorithm": "cross-entropy method (no critic, no gradient)",
+  "episodes": 45,
+  "history": [
+   {
+    "generation": 0,
+    "piece_cap": 200,
+    "seeds": [
+     80436,
+     26697,
+     54393,
+     22731,
+     12076,
+     23738,
+     44991,
+     68169
+    ],
+    "mean_lines_over_candidates": 8.703125,
+    "elite_mean_lines": 52.5625,
+    "best_candidate_lines": 77.375,
+    "sigma_norm": 3.2759225171454194,
+    "elapsed_s": 0.9
+   },
+   {
+    "generation": 1,
+    "piece_cap": 200,
+    "seeds": [
+     6597,
+     19433,
+     24523,
+     62722,
+     57297,
+     91273,
+     71613,
+     8577
+    ],
+    "mean_lines_over_candidates": 9.587890625,
+    "elite_mean_lines": 52.2,
+    "best_candidate_lines": 78.0,
+    "sigma_norm": 2.5981563756352557,
+    "elapsed_s": 1.8
+   },
+   {
+    "generation": 2,
+    "piece_cap": 200,
+    "seeds": [
+     89941,
+     13906,
+     61753,
+     90598,
+     23699,
+     5435,
+     52059,
+     80865
+    ],
+    "mean_lines_over_candidates": 10.31640625,
+    "elite_mean_lines": 56.4,
+    "best_candidate_lines": 77.625,
+    "sigma_norm": 2.7136622775122494,
+    "elapsed_s": 2.8
+   },
+   {
+    "generation": 3,
+    "piece_cap": 200,
+    "seeds": [
+     8077,
+     42986,
+     39462,
+     61779,
+     28430,
+     61992,
+     5842,
+     14785
+    ],
+    "mean_lines_over_candidates": 16.158203125,
+    "elite_mean_lines": 68.675,
+    "best_candidate_lines": 76.625,
+    "sigma_norm": 2.427101356099204,
+    "elapsed_s": 3.8
+   },
+   {
+    "generation": 4,
+    "piece_cap": 200,
+    "seeds": [
+     47648,
+     28310,
+     52629,
+     18101,
+     65523,
+     36982,
+     15613,
+     97170
+    ],
+    "mean_lines_over_candidates": 12.4765625,
+    "elite_mean_lines": 58.925,
+    "best_candidate_lines": 76.875,
+    "sigma_norm": 3.2011352409215843,
+    "elapsed_s": 4.8
+   },
+   {
+    "generation": 5,
+    "piece_cap": 200,
+    "seeds": [
+     66185,
+     61690,
+     26254,
+     47890,
+     71343,
+     59997,
+     63115,
+     66686
+    ],
+    "mean_lines_over_candidates": 15.951171875,
+    "elite_mean_lines": 72.275,
+    "best_candidate_lines": 77.75,
+    "sigma_norm": 2.7096756993443476,
+    "elapsed_s": 5.8
+   },
+   {
+    "generation": 6,
+    "piece_cap": 200,
+    "seeds": [
+     56092,
+     10371,
+     62007,
+     24661,
+     24529,
+     52289,
+     368,
+     15643
+    ],
+    "mean_lines_over_candidates": 16.759765625,
+    "elite_mean_lines": 73.6625,
+    "best_candidate_lines": 77.625,
+    "sigma_norm": 2.857124045940623,
+    "elapsed_s": 6.8
+   },
+   {
+    "generation": 7,
+    "piece_cap": 200,
+    "seeds": [
+     98964,
+     16984,
+     26463,
+     99729,
+     84348,
+     78909,
+     91338,
+     16592
+    ],
+    "mean_lines_over_candidates": 15.9453125,
+    "elite_mean_lines": 72.6,
+    "best_candidate_lines": 77.625,
+    "sigma_norm": 2.855661743694819,
+    "elapsed_s": 7.9
+   },
+   {
+    "generation": 8,
+    "piece_cap": 200,
+    "seeds": [
+     40922,
+     1327,
+     37323,
+     2870,
+     74048,
+     10746,
+     85681,
+     66620
+    ],
+    "mean_lines_over_candidates": 14.416015625,
+    "elite_mean_lines": 65.175,
+    "best_candidate_lines": 77.125,
+    "sigma_norm": 2.5082324255528823,
+    "elapsed_s": 8.9
+   },
+   {
+    "generation": 9,
+    "piece_cap": 200,
+    "seeds": [
+     79675,
+     37330,
+     89799,
+     58511,
+     92891,
+     54829,
+     40545,
+     83404
+    ],
+    "mean_lines_over_candidates": 14.982421875,
+    "elite_mean_lines": 68.1375,
+    "best_candidate_lines": 78.25,
+    "sigma_norm": 2.6955133976235706,
+    "elapsed_s": 10.0
+   },
+   {
+    "generation": 10,
+    "piece_cap": 200,
+    "seeds": [
+     45719,
+     69552,
+     62392,
+     64911,
+     5397,
+     54464,
+     87572,
+     35614
+    ],
+    "mean_lines_over_candidates": 17.76953125,
+    "elite_mean_lines": 74.6375,
+    "best_candidate_lines": 77.75,
+    "sigma_norm": 2.4462392906525494,
+    "elapsed_s": 10.9
+   },
+   {
+    "generation": 11,
+    "piece_cap": 500,
+    "seeds": [
+     364,
+     4203,
+     30849,
+     7657,
+     23529,
+     44015,
+     26258,
+     78803
+    ],
+    "mean_lines_over_candidates": 33.5078125,
+    "elite_mean_lines": 155.5625,
+    "best_candidate_lines": 198.5,
+    "sigma_norm": 2.343672043947132,
+    "elapsed_s": 13.1
+   },
+   {
+    "generation": 12,
+    "piece_cap": 500,
+    "seeds": [
+     57374,
+     24212,
+     59430,
+     4780,
+     82582,
+     34961,
+     31958,
+     46045
+    ],
+    "mean_lines_over_candidates": 37.974609375,
+    "elite_mean_lines": 163.0375,
+    "best_candidate_lines": 196.25,
+    "sigma_norm": 2.4692247303184884,
+    "elapsed_s": 15.5
+   },
+   {
+    "generation": 13,
+    "piece_cap": 500,
+    "seeds": [
+     53567,
+     10731,
+     41418,
+     51403,
+     21039,
+     42373,
+     42040,
+     239
+    ],
+    "mean_lines_over_candidates": 43.365234375,
+    "elite_mean_lines": 176.7,
+    "best_candidate_lines": 197.25,
+    "sigma_norm": 2.549780417445407,
+    "elapsed_s": 17.5
+   },
+   {
+    "generation": 14,
+    "piece_cap": 500,
+    "seeds": [
+     80675,
+     57031,
+     24469,
+     20798,
+     7829,
+     96440,
+     90488,
+     17832
+    ],
+    "mean_lines_over_candidates": 33.142578125,
+    "elite_mean_lines": 167.6,
+    "best_candidate_lines": 197.875,
+    "sigma_norm": 2.5198149882657224,
+    "elapsed_s": 19.8
+   },
+   {
+    "generation": 15,
+    "piece_cap": 500,
+    "seeds": [
+     52193,
+     46392,
+     54686,
+     26722,
+     59318,
+     23330,
+     94134,
+     90508
+    ],
+    "mean_lines_over_candidates": 45.345703125,
+    "elite_mean_lines": 189.3625,
+    "best_candidate_lines": 197.0,
+    "sigma_norm": 2.392246455925748,
+    "elapsed_s": 22.1
+   },
+   {
+    "generation": 16,
+    "piece_cap": 500,
+    "seeds": [
+     37158,
+     929,
+     39407,
+     40313,
+     62479,
+     3088,
+     79974,
+     46593
+    ],
+    "mean_lines_over_candidates": 35.82421875,
+    "elite_mean_lines": 177.75,
+    "best_candidate_lines": 198.0,
+    "sigma_norm": 2.690046243540204,
+    "elapsed_s": 24.3
+   },
+   {
+    "generation": 17,
+    "piece_cap": 500,
+    "seeds": [
+     95701,
+     36821,
+     59749,
+     97184,
+     50359,
+     94958,
+     46320,
+     1512
+    ],
+    "mean_lines_over_candidates": 20.4453125,
+    "elite_mean_lines": 114.875,
+    "best_candidate_lines": 197.875,
+    "sigma_norm": 2.3016060907140354,
+    "elapsed_s": 26.3
+   },
+   {
+    "generation": 18,
+    "piece_cap": 500,
+    "seeds": [
+     66993,
+     94350,
+     36277,
+     43885,
+     32623,
+     77563,
+     42715,
+     84215
+    ],
+    "mean_lines_over_candidates": 29.517578125,
+    "elite_mean_lines": 152.125,
+    "best_candidate_lines": 197.0,
+    "sigma_norm": 2.4377447864005144,
+    "elapsed_s": 28.3
+   },
+   {
+    "generation": 19,
+    "piece_cap": 500,
+    "seeds": [
+     57892,
+     1742,
+     49890,
+     9561,
+     73474,
+     76631,
+     50708,
+     43447
+    ],
+    "mean_lines_over_candidates": 29.86328125,
+    "elite_mean_lines": 152.45,
+    "best_candidate_lines": 197.0,
+    "sigma_norm": 2.414518183334386,
+    "elapsed_s": 30.3
+   },
+   {
+    "generation": 20,
+    "piece_cap": 500,
+    "seeds": [
+     78203,
+     30025,
+     42656,
+     59952,
+     23241,
+     53293,
+     51783,
+     91052
+    ],
+    "mean_lines_over_candidates": 24.060546875,
+    "elite_mean_lines": 131.5375,
+    "best_candidate_lines": 197.75,
+    "sigma_norm": 2.3172728741217807,
+    "elapsed_s": 32.6
+   },
+   {
+    "generation": 21,
+    "piece_cap": 500,
+    "seeds": [
+     81809,
+     37554,
+     26592,
+     90585,
+     31144,
+     49989,
+     70389,
+     50425
+    ],
+    "mean_lines_over_candidates": 43.9921875,
+    "elite_mean_lines": 187.6,
+    "best_candidate_lines": 197.875,
+    "sigma_norm": 2.4534297770365696,
+    "elapsed_s": 34.8
+   },
+   {
+    "generation": 22,
+    "piece_cap": 1500,
+    "seeds": [
+     24538,
+     10329,
+     26520,
+     80649,
+     11049,
+     64281,
+     72424,
+     70066
+    ],
+    "mean_lines_over_candidates": 61.12890625,
+    "elite_mean_lines": 366.6,
+    "best_candidate_lines": 597.0,
+    "sigma_norm": 1.867923385008553,
+    "elapsed_s": 39.9
+   },
+   {
+    "generation": 23,
+    "piece_cap": 1500,
+    "seeds": [
+     33669,
+     8061,
+     36804,
+     97338,
+     42803,
+     77699,
+     79003,
+     29279
+    ],
+    "mean_lines_over_candidates": 132.595703125,
+    "elite_mean_lines": 570.4625,
+    "best_candidate_lines": 597.625,
+    "sigma_norm": 2.248237189029028,
+    "elapsed_s": 45.7
+   },
+   {
+    "generation": 24,
+    "piece_cap": 1500,
+    "seeds": [
+     78983,
+     82253,
+     78519,
+     55853,
+     86590,
+     67028,
+     55294,
+     94721
+    ],
+    "mean_lines_over_candidates": 49.45703125,
+    "elite_mean_lines": 297.5625,
+    "best_candidate_lines": 596.75,
+    "sigma_norm": 2.221638191477068,
+    "elapsed_s": 50.4
+   },
+   {
+    "generation": 25,
+    "piece_cap": 1500,
+    "seeds": [
+     76514,
+     63275,
+     58787,
+     89731,
+     24502,
+     35704,
+     68714,
+     34120
+    ],
+    "mean_lines_over_candidates": 83.306640625,
+    "elite_mean_lines": 437.6625,
+    "best_candidate_lines": 596.875,
+    "sigma_norm": 2.3702178449839404,
+    "elapsed_s": 55.9
+   },
+   {
+    "generation": 26,
+    "piece_cap": 1500,
+    "seeds": [
+     13496,
+     41237,
+     92674,
+     66700,
+     50640,
+     46704,
+     29474,
+     17641
+    ],
+    "mean_lines_over_candidates": 47.12890625,
+    "elite_mean_lines": 281.5,
+    "best_candidate_lines": 597.375,
+    "sigma_norm": 2.605726107466368,
+    "elapsed_s": 61.0
+   },
+   {
+    "generation": 27,
+    "piece_cap": 1500,
+    "seeds": [
+     32229,
+     14790,
+     93895,
+     49493,
+     53102,
+     34073,
+     52466,
+     41095
+    ],
+    "mean_lines_over_candidates": 62.349609375,
+    "elite_mean_lines": 377.2875,
+    "best_candidate_lines": 598.125,
+    "sigma_norm": 2.140897312914087,
+    "elapsed_s": 66.1
+   },
+   {
+    "generation": 28,
+    "piece_cap": 1500,
+    "seeds": [
+     38902,
+     69399,
+     32561,
+     25082,
+     50973,
+     77590,
+     37235,
+     78590
+    ],
+    "mean_lines_over_candidates": 71.720703125,
+    "elite_mean_lines": 389.15,
+    "best_candidate_lines": 597.375,
+    "sigma_norm": 1.8377091101086813,
+    "elapsed_s": 71.8
+   },
+   {
+    "generation": 29,
+    "piece_cap": 1500,
+    "seeds": [
+     72215,
+     28034,
+     82770,
+     66370,
+     51889,
+     43132,
+     52423,
+     93673
+    ],
+    "mean_lines_over_candidates": 88.34765625,
+    "elite_mean_lines": 487.2875,
+    "best_candidate_lines": 597.25,
+    "sigma_norm": 2.1730862634862764,
+    "elapsed_s": 76.4
+   },
+   {
+    "generation": 30,
+    "piece_cap": 1500,
+    "seeds": [
+     45069,
+     9427,
+     47758,
+     29968,
+     13191,
+     10969,
+     5987,
+     39340
+    ],
+    "mean_lines_over_candidates": 134.35546875,
+    "elite_mean_lines": 577.775,
+    "best_candidate_lines": 597.75,
+    "sigma_norm": 1.8068495069736994,
+    "elapsed_s": 82.2
+   },
+   {
+    "generation": 31,
+    "piece_cap": 1500,
+    "seeds": [
+     95571,
+     35046,
+     60659,
+     94586,
+     82214,
+     60174,
+     65861,
+     24459
+    ],
+    "mean_lines_over_candidates": 85.8984375,
+    "elite_mean_lines": 433.075,
+    "best_candidate_lines": 597.5,
+    "sigma_norm": 2.0747873156505303,
+    "elapsed_s": 87.8
+   },
+   {
+    "generation": 32,
+    "piece_cap": 1500,
+    "seeds": [
+     41849,
+     74322,
+     43305,
+     82573,
+     61093,
+     4809,
+     52021,
+     22435
+    ],
+    "mean_lines_over_candidates": 66.095703125,
+    "elite_mean_lines": 377.1125,
+    "best_candidate_lines": 597.5,
+    "sigma_norm": 1.931854621011954,
+    "elapsed_s": 92.2
+   },
+   {
+    "generation": 33,
+    "piece_cap": 5000,
+    "seeds": [
+     44756,
+     94860,
+     74809,
+     69302,
+     89220,
+     1701,
+     45173,
+     71160
+    ],
+    "mean_lines_over_candidates": 156.89453125,
+    "elite_mean_lines": 980.7375,
+    "best_candidate_lines": 1923.625,
+    "sigma_norm": 2.070652438038257,
+    "elapsed_s": 104.4
+   },
+   {
+    "generation": 34,
+    "piece_cap": 5000,
+    "seeds": [
+     56184,
+     3922,
+     17855,
+     29699,
+     94919,
+     43046,
+     60577,
+     84775
+    ],
+    "mean_lines_over_candidates": 105.419921875,
+    "elite_mean_lines": 614.9375,
+    "best_candidate_lines": 1922.0,
+    "sigma_norm": 2.0358599943881788,
+    "elapsed_s": 116.5
+   },
+   {
+    "generation": 35,
+    "piece_cap": 5000,
+    "seeds": [
+     56942,
+     89010,
+     22995,
+     48002,
+     35360,
+     78839,
+     20798,
+     33988
+    ],
+    "mean_lines_over_candidates": 71.193359375,
+    "elite_mean_lines": 429.975,
+    "best_candidate_lines": 1998.0,
+    "sigma_norm": 1.9458125321163926,
+    "elapsed_s": 129.3
+   },
+   {
+    "generation": 36,
+    "piece_cap": 5000,
+    "seeds": [
+     34246,
+     21686,
+     65841,
+     78845,
+     36336,
+     26585,
+     39787,
+     91173
+    ],
+    "mean_lines_over_candidates": 210.029296875,
+    "elite_mean_lines": 1247.25,
+    "best_candidate_lines": 1997.75,
+    "sigma_norm": 1.651536644973008,
+    "elapsed_s": 144.5
+   },
+   {
+    "generation": 37,
+    "piece_cap": 5000,
+    "seeds": [
+     49001,
+     1359,
+     52038,
+     36989,
+     48789,
+     34678,
+     35587,
+     33835
+    ],
+    "mean_lines_over_candidates": 208.251953125,
+    "elite_mean_lines": 1190.075,
+    "best_candidate_lines": 1998.25,
+    "sigma_norm": 1.7678147325455362,
+    "elapsed_s": 157.3
+   },
+   {
+    "generation": 38,
+    "piece_cap": 5000,
+    "seeds": [
+     29295,
+     61432,
+     98936,
+     56579,
+     99896,
+     62403,
+     41916,
+     89713
+    ],
+    "mean_lines_over_candidates": 118.125,
+    "elite_mean_lines": 723.1875,
+    "best_candidate_lines": 1603.625,
+    "sigma_norm": 1.831552603075923,
+    "elapsed_s": 168.2
+   },
+   {
+    "generation": 39,
+    "piece_cap": 5000,
+    "seeds": [
+     64227,
+     36170,
+     45297,
+     26286,
+     86464,
+     47536,
+     4424,
+     49594
+    ],
+    "mean_lines_over_candidates": 200.326171875,
+    "elite_mean_lines": 1146.4,
+    "best_candidate_lines": 1996.75,
+    "sigma_norm": 1.7018341790236589,
+    "elapsed_s": 180.7
+   },
+   {
+    "generation": 40,
+    "piece_cap": 5000,
+    "seeds": [
+     2501,
+     50816,
+     52425,
+     5458,
+     87345,
+     63596,
+     48686,
+     79279
+    ],
+    "mean_lines_over_candidates": 294.0390625,
+    "elite_mean_lines": 1559.9625,
+    "best_candidate_lines": 1998.0,
+    "sigma_norm": 1.376077659372071,
+    "elapsed_s": 193.7
+   },
+   {
+    "generation": 41,
+    "piece_cap": 5000,
+    "seeds": [
+     82576,
+     87059,
+     89410,
+     96122,
+     17572,
+     52597,
+     70145,
+     31398
+    ],
+    "mean_lines_over_candidates": 280.26953125,
+    "elite_mean_lines": 1554.95,
+    "best_candidate_lines": 1997.75,
+    "sigma_norm": 1.6633833161330183,
+    "elapsed_s": 207.8
+   },
+   {
+    "generation": 42,
+    "piece_cap": 5000,
+    "seeds": [
+     18034,
+     47777,
+     61968,
+     13712,
+     82331,
+     31518,
+     18926,
+     68622
+    ],
+    "mean_lines_over_candidates": 227.203125,
+    "elite_mean_lines": 1306.075,
+    "best_candidate_lines": 1997.5,
+    "sigma_norm": 1.6633863430149716,
+    "elapsed_s": 221.8
+   },
+   {
+    "generation": 43,
+    "piece_cap": 5000,
+    "seeds": [
+     58953,
+     20187,
+     52084,
+     60553,
+     30441,
+     50217,
+     10999,
+     57666
+    ],
+    "mean_lines_over_candidates": 207.578125,
+    "elite_mean_lines": 1092.0125,
+    "best_candidate_lines": 1998.25,
+    "sigma_norm": 1.5688855742009788,
+    "elapsed_s": 235.7
+   },
+   {
+    "generation": 44,
+    "piece_cap": 5000,
+    "seeds": [
+     94744,
+     31052,
+     48450,
+     14948,
+     89408,
+     83859,
+     11456,
+     15276
+    ],
+    "mean_lines_over_candidates": 263.146484375,
+    "elite_mean_lines": 1394.5375,
+    "best_candidate_lines": 1997.125,
+    "sigma_norm": 1.1976970151715667,
+    "elapsed_s": 248.9
+   }
+  ],
+  "eval": {
+   "median_lines": 1198.0,
+   "mean_lines": 1197.8,
+   "min_lines": 1196,
+   "max_lines": 1199,
+   "median_score": 8856700.0,
+   "median_norm_score_per_piece": 48.95,
+   "median_tetris_rate": 0.0,
+   "mean_over_median_lines": 0.9998330550918196,
+   "n": 10,
+   "hit_cap_count": 10,
+   "evaluated_at": "2026-08-07T12:47:54+00:00",
+   "seeds": [
+    900001,
+    900002,
+    900003,
+    900004,
+    900005,
+    900006,
+    900007,
+    900008,
+    900009,
+    900010
+   ],
+   "piece_cap": 3000,
+   "difficulty": "normal",
+   "mean_score": 8839240.0,
+   "mean_score_per_piece": 2946.413333333333,
+   "mean_norm_score_per_piece": 48.833333333333336,
+   "mean_tetris_rate": 0.0,
+   "mean_pieces": 3000.0,
+   "games_hit_cap": 10,
+   "n_games": 10,
+   "saturated": true,
+   "evaluated_on": "engine",
+   "per_game": [
+    {
+     "seed": 900001,
+     "difficulty": 0,
+     "lines": 1198,
+     "score": 8918700,
+     "pieces": 3000,
+     "died": false,
+     "hit_cap": true,
+     "score_per_piece": 2972.9,
+     "norm_score_per_piece": 49.31666666666667,
+     "tetris_rate": 0.0,
+     "clears_by_n": [
+      1926,
+      957,
+      110,
+      7,
+      0
+     ],
+     "seconds": 12.34
+    },
+    {
+     "seed": 900002,
+     "difficulty": 0,
+     "lines": 1198,
+     "score": 8607900,
+     "pieces": 3000,
+     "died": false,
+     "hit_cap": true,
+     "score_per_piece": 2869.3,
+     "norm_score_per_piece": 47.5,
+     "tetris_rate": 0.0,
+     "clears_by_n": [
+      1896,
+      1012,
+      90,
+      2,
+      0
+     ],
+     "seconds": 19.58
+    },
+    {
+     "seed": 900003,
+     "difficulty": 0,
+     "lines": 1198,
+     "score": 8799250,
+     "pieces": 3000,
+     "died": false,
+     "hit_cap": true,
+     "score_per_piece": 2933.0833333333335,
+     "norm_score_per_piece": 49.05,
+     "tetris_rate": 0.0,
+     "clears_by_n": [
+      1897,
+      1011,
+      89,
+      3,
+      0
+     ],
+     "seconds": 14.31
+    },
+    {
+     "seed": 900004,
+     "difficulty": 0,
+     "lines": 1199,
+     "score": 8871050,
+     "pieces": 3000,
+     "died": false,
+     "hit_cap": true,
+     "score_per_piece": 2957.016666666667,
+     "norm_score_per_piece": 48.916666666666664,
+     "tetris_rate": 0.0,
+     "clears_by_n": [
+      1903,
+      1003,
+      86,
+      8,
+      0
+     ],
+     "seconds": 15.04
+    },
+    {
+     "seed": 900005,
+     "difficulty": 0,
+     "lines": 1198,
+     "score": 8835250,
+     "pieces": 3000,
+     "died": false,
+     "hit_cap": true,
+     "score_per_piece": 2945.0833333333335,
+     "norm_score_per_piece": 48.6,
+     "tetris_rate": 0.0,
+     "clears_by_n": [
+      1900,
+      1008,
+      86,
+      6,
+      0
+     ],
+     "seconds": 15.95
+    },
+    {
+     "seed": 900006,
+     "difficulty": 0,
+     "lines": 1196,
+     "score": 8860100,
+     "pieces": 3000,
+     "died": false,
+     "hit_cap": true,
+     "score_per_piece": 2953.366666666667,
+     "norm_score_per_piece": 48.983333333333334,
+     "tetris_rate": 0.0,
+     "clears_by_n": [
+      1923,
+      967,
+      101,
+      9,
+      0
+     ],
+     "seconds": 16.62
+    },
+    {
+     "seed": 900007,
+     "difficulty": 0,
+     "lines": 1197,
+     "score": 8853300,
+     "pieces": 3000,
+     "died": false,
+     "hit_cap": true,
+     "score_per_piece": 2951.1,
+     "norm_score_per_piece": 48.9,
+     "tetris_rate": 0.0,
+     "clears_by_n": [
+      1909,
+      989,
+      98,
+      4,
+      0
+     ],
+     "seconds": 14.6
+    },
+    {
+     "seed": 900008,
+     "difficulty": 0,
+     "lines": 1198,
+     "score": 8968200,
+     "pieces": 3000,
+     "died": false,
+     "hit_cap": true,
+     "score_per_piece": 2989.4,
+     "norm_score_per_piece": 49.35,
+     "tetris_rate": 0.0,
+     "clears_by_n": [
+      1913,
+      982,
+      99,
+      6,
+      0
+     ],
+     "seconds": 16.93
+    },
+    {
+     "seed": 900009,
+     "difficulty": 0,
+     "lines": 1198,
+     "score": 8946250,
+     "pieces": 3000,
+     "died": false,
+     "hit_cap": true,
+     "score_per_piece": 2982.0833333333335,
+     "norm_score_per_piece": 49.5,
+     "tetris_rate": 0.0,
+     "clears_by_n": [
+      1926,
+      954,
+      116,
+      4,
+      0
+     ],
+     "seconds": 17.47
+    },
+    {
+     "seed": 900010,
+     "difficulty": 0,
+     "lines": 1198,
+     "score": 8732400,
+     "pieces": 3000,
+     "died": false,
+     "hit_cap": true,
+     "score_per_piece": 2910.8,
+     "norm_score_per_piece": 48.21666666666667,
+     "tetris_rate": 0.0,
+     "clears_by_n": [
+      1904,
+      995,
+      100,
+      1,
+      0
+     ],
+     "seconds": 15.05
+    }
+   ],
+   "source": "evaluate.py (engine)"
+  },
+  "selected": "best_single_candidate",
+  "eval_piece_cap": 50000,
+  "train_seed_range": [
+   1,
+   100000
+  ],
+  "holdout_seed_range": [
+   900001,
+   900010
+  ],
+  "eval_distribution_mean": {
+   "seeds": [
+    900001,
+    900002,
+    900003,
+    900004,
+    900005,
+    900006,
+    900007,
+    900008,
+    900009,
+    900010
+   ],
+   "lines": [
+    18621,
+    15546,
+    10586,
+    19996,
+    19996,
+    5952,
+    19998,
+    11191,
+    3103,
+    16460
+   ],
+   "pieces": [
+    46589,
+    38903,
+    26507,
+    50000,
+    50000,
+    14924,
+    50000,
+    28013,
+    7799,
+    41189
+   ],
+   "hit_cap": [
+    false,
+    false,
+    false,
+    true,
+    true,
+    false,
+    true,
+    false,
+    false,
+    false
+   ],
+   "mean_lines": 14144.9,
+   "min_lines": 3103,
+   "max_lines": 19998
+  },
+  "eval_best_candidate": {
+   "seeds": [
+    900001,
+    900002,
+    900003,
+    900004,
+    900005,
+    900006,
+    900007,
+    900008,
+    900009,
+    900010
+   ],
+   "lines": [
+    19998,
+    19998,
+    19998,
+    19998,
+    19997,
+    19998,
+    19999,
+    19997,
+    19997,
+    19999
+   ],
+   "pieces": [
+    50000,
+    50000,
+    50000,
+    50000,
+    50000,
+    50000,
+    50000,
+    50000,
+    50000,
+    50000
+   ],
+   "hit_cap": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "mean_lines": 19997.9,
+   "min_lines": 19997,
+   "max_lines": 19999
+  },
+  "parity_verified": true,
+  "critic_role_ko": "\uac00\uce58\ud568\uc218\ub3c4, \uacbd\uc0ac\ub3c4, \uc2dc\uac04\ucc28(TD)\ub3c4 \uc5c6\ub2e4. \uac8c\uc784 \uc804\uccb4\ub97c '\uac00\uc911\uce58 8\uac1c\ub97c \ub123\uc73c\uba74 \uc810\uc218 \ud558\ub098\uac00 \ub098\uc624\ub294 \ube14\ub799\ubc15\uc2a4'\ub85c \ubcf4\uace0 \uac00\uc911\uce58 \uacf5\uac04\uc744 \uc9c1\uc811 \ub4a4\uc9c4\ub2e4. \uc5b4\ub290 \uc218\uac00 \uc88b\uc558\ub294\uc9c0 \ub530\uc9c0\ub294 \ud06c\ub808\ub527 \ud560\ub2f9\uc744 \uc544\uc608 \ud558\uc9c0 \uc54a\ub294\ub2e4\ub294 \ub73b\uc774\ub2e4.\n\uacf5\ubd80\uacc4\ud68d\uc758 \ucd95 \ubc16\uc5d0 \uc788\uc9c0\ub9cc, \ucd95 \uc704\uc758 \ub124 \uc54c\uace0\ub9ac\uc998\uc744 \ud06c\uac8c \uc774\uae34\ub2e4. \uc815\ucc45\uc774 \uc22b\uc790 8\uac1c\ubfd0\uc774\uace0 \ub864\uc544\uc6c3\uc774 \uc2f8\uba74 \ud06c\ub808\ub527 \ud560\ub2f9 \uae30\uacc4\uc7a5\uce58\uac00 \uac12\uc744 \ubabb \ud55c\ub2e4\ub294 \ub73b\uc774\ub2e4 \u2014 \ud06c\ub9ac\ud2f1\uc740 \uc815\ucc45\uc774 \ud06c\uace0 \ud45c\ubcf8\uc774 \ube44\uc300 \ub54c \uac12\uc744 \ud55c\ub2e4.",
+  "critic_role_ko_headline": "\ud06c\ub9ac\ud2f1 \uc5c6\uc74c \u2014 \uc9c4\ud654\uc804\ub7b5\uc774 \uac00\uc911\uce58\ub97c \uc9c1\uc811 \ud0d0\uc0c9\ud55c\ub2e4",
+  "update_formula": "N(\u03bc, \u03c3\u00b2) \uc5d0\uc11c w \ub97c \ubf51\uc544 \u2192 \uac8c\uc784\uc744 \ub3cc\ub824 \uc810\uc218\ub97c \uc7ac\uace0 \u2192 \uc0c1\uc704 elite \uc758 \ud3c9\uade0\u00b7\ubd84\uc0b0\uc73c\ub85c \u03bc, \u03c3 \uac31\uc2e0",
+  "selection_note": "selected=best_single_candidate \uc774\ub2e4. \uc138\ub300\ubcc4 \ud3c9\uac00 \uc2dc\ub4dc\uac00 \ubc14\ub00c\ubbc0\ub85c \uc774 \uc120\ud0dd\ubc95\uc740 '\uc6b4 \uc88b\uc740 \uc138\ub300'\ub97c \ubf51\uc744 \uc704\ud5d8\uc774 \uc788\uace0, \ub2e4\ub978 CEM \uc0b0\ucd9c\ubb3c\uc740 distribution_mean \uc73c\ub85c \ud1b5\uc77c\ud588\ub2e4. \uc774 \ud30c\uc77c\ub9cc \ubabb \ubc14\uafbc \uc774\uc720: \ud559\uc2b5 \ub2f9\uc2dc\uc758 \uccb4\ud06c\ud3ec\uc778\ud2b8\uac00 --search \uc2e4\ud589\uc5d0 \ub36e\uc5ec \uc0ac\ub77c\uc84c\ub2e4(\uac19\uc740 objective \uac00 \uac19\uc740 ckpt \uacbd\ub85c\ub97c \uc37c\ub2e4. \uc9c0\uae08\uc740 \uacbd\ub85c\ub97c \ubd84\ub9ac\ud588\ub2e4). \ubd84\ud3ec \ud3c9\uade0 \uac00\uc911\uce58\ub97c \ubcf5\uc6d0\ud560 \uc218 \uc5c6\uc5b4 \uc7ac\ud559\uc2b5 \uc5c6\uc774\ub294 \uad50\uccb4\uac00 \ubd88\uac00\ub2a5\ud558\ub2e4. \ub2e4\ub9cc \uc774 \ud30c\uc77c \uc790\uccb4\ub294 checker \uc758 \ub3c5\ub9bd \uc7ac\ud3c9\uac00\ub97c \ud1b5\uacfc\ud588\ub2e4 \u2014 \ud559\uc2b5\u00b7\ud3c9\uac00\uc5d0 \uc548 \uc4f4 \uc0c8 \uc2dc\ub4dc 10\ud310\uc5d0\uc11c \ud3c9\uade0 1,198.4\uc904, \uc0ac\ub9dd 0\ud68c. \uc120\ud0dd\ubc95\uc758 \uc704\ud5d8\uacfc \uc774 \ud30c\uc77c\uc758 \ud488\uc9c8\uc740 \ub2e4\ub978 \ubb38\uc81c\ub2e4.",
+  "eval_training": {
+   "seeds": [
+    900001,
+    900002,
+    900003,
+    900004,
+    900005,
+    900006,
+    900007,
+    900008,
+    900009,
+    900010
+   ],
+   "lines": [
+    19998,
+    19998,
+    19998,
+    19998,
+    19997,
+    19998,
+    19999,
+    19997,
+    19997,
+    19999
+   ],
+   "pieces": [
+    50000,
+    50000,
+    50000,
+    50000,
+    50000,
+    50000,
+    50000,
+    50000,
+    50000,
+    50000
+   ],
+   "hit_cap": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "mean_lines": 19997.9,
+   "min_lines": 19997,
+   "max_lines": 19999
+  }
+ }
+}

@@ -1,0 +1,209 @@
+{
+ "generated_at": "2026-08-07T09:58:59+00:00",
+ "seeds": [
+  900001,
+  900002,
+  900003,
+  900004,
+  900005,
+  900006,
+  900007,
+  900008,
+  900009,
+  900010
+ ],
+ "piece_cap": 200000,
+ "seeds_note": "Held-out: disjoint from the 1..100000 training range used by every trainer in this directory.",
+ "strategies": {
+  "dellacherie": {
+   "panel": 2,
+   "label": "Dellacherie hand weights",
+   "critic_role": "none - human-designed evaluation (control)",
+   "mean_lines": 79998.3,
+   "std_lines": 0.7810249675906654,
+   "min_lines": 79997,
+   "max_lines": 79999,
+   "mean_pieces": 200000.0,
+   "games_hit_cap": 10,
+   "n_games": 10,
+   "saturated": true,
+   "per_game": [
+    {
+     "seed": 900001,
+     "lines": 79998,
+     "pieces": 200000,
+     "died": false,
+     "hit_cap": true,
+     "seconds": 71.81
+    },
+    {
+     "seed": 900002,
+     "lines": 79999,
+     "pieces": 200000,
+     "died": false,
+     "hit_cap": true,
+     "seconds": 69.41
+    },
+    {
+     "seed": 900003,
+     "lines": 79999,
+     "pieces": 200000,
+     "died": false,
+     "hit_cap": true,
+     "seconds": 67.38
+    },
+    {
+     "seed": 900004,
+     "lines": 79999,
+     "pieces": 200000,
+     "died": false,
+     "hit_cap": true,
+     "seconds": 69.57
+    },
+    {
+     "seed": 900005,
+     "lines": 79997,
+     "pieces": 200000,
+     "died": false,
+     "hit_cap": true,
+     "seconds": 69.57
+    },
+    {
+     "seed": 900006,
+     "lines": 79999,
+     "pieces": 200000,
+     "died": false,
+     "hit_cap": true,
+     "seconds": 72.95
+    },
+    {
+     "seed": 900007,
+     "lines": 79998,
+     "pieces": 200000,
+     "died": false,
+     "hit_cap": true,
+     "seconds": 69.75
+    },
+    {
+     "seed": 900008,
+     "lines": 79997,
+     "pieces": 200000,
+     "died": false,
+     "hit_cap": true,
+     "seconds": 67.71
+    },
+    {
+     "seed": 900009,
+     "lines": 79998,
+     "pieces": 200000,
+     "died": false,
+     "hit_cap": true,
+     "seconds": 69.49
+    },
+    {
+     "seed": 900010,
+     "lines": 79999,
+     "pieces": 200000,
+     "died": false,
+     "hit_cap": true,
+     "seconds": 69.96
+    }
+   ]
+  },
+  "cem_linear": {
+   "panel": 3,
+   "label": "CEM linear",
+   "critic_role": "none - evolutionary search over weights (control)",
+   "mean_lines": 79997.6,
+   "std_lines": 1.42828568570857,
+   "min_lines": 79995,
+   "max_lines": 79999,
+   "mean_pieces": 200000.0,
+   "games_hit_cap": 10,
+   "n_games": 10,
+   "saturated": true,
+   "per_game": [
+    {
+     "seed": 900001,
+     "lines": 79999,
+     "pieces": 200000,
+     "died": false,
+     "hit_cap": true,
+     "seconds": 70.58
+    },
+    {
+     "seed": 900002,
+     "lines": 79999,
+     "pieces": 200000,
+     "died": false,
+     "hit_cap": true,
+     "seconds": 69.3
+    },
+    {
+     "seed": 900003,
+     "lines": 79996,
+     "pieces": 200000,
+     "died": false,
+     "hit_cap": true,
+     "seconds": 68.69
+    },
+    {
+     "seed": 900004,
+     "lines": 79997,
+     "pieces": 200000,
+     "died": false,
+     "hit_cap": true,
+     "seconds": 69.32
+    },
+    {
+     "seed": 900005,
+     "lines": 79995,
+     "pieces": 200000,
+     "died": false,
+     "hit_cap": true,
+     "seconds": 70.14
+    },
+    {
+     "seed": 900006,
+     "lines": 79996,
+     "pieces": 200000,
+     "died": false,
+     "hit_cap": true,
+     "seconds": 69.04
+    },
+    {
+     "seed": 900007,
+     "lines": 79998,
+     "pieces": 200000,
+     "died": false,
+     "hit_cap": true,
+     "seconds": 68.48
+    },
+    {
+     "seed": 900008,
+     "lines": 79998,
+     "pieces": 200000,
+     "died": false,
+     "hit_cap": true,
+     "seconds": 69.43
+    },
+    {
+     "seed": 900009,
+     "lines": 79999,
+     "pieces": 200000,
+     "died": false,
+     "hit_cap": true,
+     "seconds": 68.34
+    },
+    {
+     "seed": 900010,
+     "lines": 79999,
+     "pieces": 200000,
+     "died": false,
+     "hit_cap": true,
+     "seconds": 72.08
+    }
+   ]
+  }
+ }
+}

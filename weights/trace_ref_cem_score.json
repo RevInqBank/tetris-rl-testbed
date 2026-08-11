@@ -1,0 +1,5787 @@
+{
+ "purpose": "web \uc758 JS \uac00 \uac08\ub9ac\ub294 \uc9c0\uc810\uc744 \uc774\ubd84\ud0d0\uc0c9\uc73c\ub85c \ucc3e\uae30 \uc704\ud55c \uae30\uc900 \uada4\uc801.",
+ "policy": "cem_score.json",
+ "harness": "engine",
+ "difficulty": "normal",
+ "tie_rule": "NO ROUNDING. best=0; for i: if s[i] > s[best] + 1e-9 then best=i",
+ "supersedes": "\uc774\uc804 \ud310(9\uc790\ub9ac \ubc18\uc62c\ub9bc \uae30\uc900)\uc740 \ud3d0\uae30. round() \uc640 Math.round() \uac00 \uc74c\uc218\uc5d0\uc11c \uac08\ub838\ub2e4.",
+ "board_hash": "engine.board_hash(state.rows) \u2014 22\ud589 \uc804\uccb4, \uadf8 \uc218\ub97c \ub450\uae30 \uc804 \uc0c1\ud0dc",
+ "checkpoint_every": 25,
+ "seeds": {
+  "900001": {
+   "lines": 1493,
+   "pieces": 3769,
+   "checkpoints": [
+    {
+     "piece": 0,
+     "board_hash": 2614092085,
+     "lines": 0,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 25,
+     "board_hash": 3346899935,
+     "lines": 4,
+     "chose_rot": 0,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 50,
+     "board_hash": 4238912309,
+     "lines": 10,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 75,
+     "board_hash": 1183258687,
+     "lines": 26,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 100,
+     "board_hash": 1975602966,
+     "lines": 37,
+     "chose_rot": 0,
+     "chose_left_col": 4,
+     "n_legal": 17
+    },
+    {
+     "piece": 125,
+     "board_hash": 48874781,
+     "lines": 46,
+     "chose_rot": 0,
+     "chose_left_col": 2,
+     "n_legal": 9
+    },
+    {
+     "piece": 150,
+     "board_hash": 129105020,
+     "lines": 55,
+     "chose_rot": 1,
+     "chose_left_col": 9,
+     "n_legal": 17
+    },
+    {
+     "piece": 175,
+     "board_hash": 2311904167,
+     "lines": 65,
+     "chose_rot": 3,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 200,
+     "board_hash": 3261203359,
+     "lines": 70,
+     "chose_rot": 2,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 225,
+     "board_hash": 467130153,
+     "lines": 82,
+     "chose_rot": 1,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 250,
+     "board_hash": 112955522,
+     "lines": 93,
+     "chose_rot": 0,
+     "chose_left_col": 1,
+     "n_legal": 9
+    },
+    {
+     "piece": 275,
+     "board_hash": 1587126830,
+     "lines": 103,
+     "chose_rot": 0,
+     "chose_left_col": 7,
+     "n_legal": 9
+    },
+    {
+     "piece": 300,
+     "board_hash": 157382903,
+     "lines": 116,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 325,
+     "board_hash": 2679220050,
+     "lines": 126,
+     "chose_rot": 1,
+     "chose_left_col": 4,
+     "n_legal": 34
+    },
+    {
+     "piece": 350,
+     "board_hash": 2854365157,
+     "lines": 133,
+     "chose_rot": 0,
+     "chose_left_col": 3,
+     "n_legal": 9
+    },
+    {
+     "piece": 375,
+     "board_hash": 3244000317,
+     "lines": 145,
+     "chose_rot": 2,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 400,
+     "board_hash": 4178574695,
+     "lines": 155,
+     "chose_rot": 3,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 425,
+     "board_hash": 744657668,
+     "lines": 168,
+     "chose_rot": 1,
+     "chose_left_col": 9,
+     "n_legal": 17
+    },
+    {
+     "piece": 450,
+     "board_hash": 5338102,
+     "lines": 175,
+     "chose_rot": 2,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 475,
+     "board_hash": 3730639417,
+     "lines": 184,
+     "chose_rot": 2,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 500,
+     "board_hash": 275720966,
+     "lines": 197,
+     "chose_rot": 1,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 525,
+     "board_hash": 1207493276,
+     "lines": 204,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 9
+    },
+    {
+     "piece": 550,
+     "board_hash": 896280655,
+     "lines": 215,
+     "chose_rot": 0,
+     "chose_left_col": 6,
+     "n_legal": 17
+    },
+    {
+     "piece": 575,
+     "board_hash": 3941193428,
+     "lines": 226,
+     "chose_rot": 3,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 600,
+     "board_hash": 2154805353,
+     "lines": 238,
+     "chose_rot": 1,
+     "chose_left_col": 4,
+     "n_legal": 17
+    },
+    {
+     "piece": 625,
+     "board_hash": 2539813340,
+     "lines": 248,
+     "chose_rot": 0,
+     "chose_left_col": 4,
+     "n_legal": 9
+    },
+    {
+     "piece": 650,
+     "board_hash": 654316749,
+     "lines": 258,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 675,
+     "board_hash": 1122144335,
+     "lines": 264,
+     "chose_rot": 0,
+     "chose_left_col": 4,
+     "n_legal": 9
+    },
+    {
+     "piece": 700,
+     "board_hash": 2713578467,
+     "lines": 274,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 17
+    },
+    {
+     "piece": 725,
+     "board_hash": 1100557159,
+     "lines": 285,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 750,
+     "board_hash": 2906939434,
+     "lines": 294,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 775,
+     "board_hash": 4264574393,
+     "lines": 303,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 800,
+     "board_hash": 3861023115,
+     "lines": 317,
+     "chose_rot": 0,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 825,
+     "board_hash": 834615775,
+     "lines": 328,
+     "chose_rot": 0,
+     "chose_left_col": 7,
+     "n_legal": 9
+    },
+    {
+     "piece": 850,
+     "board_hash": 688993773,
+     "lines": 335,
+     "chose_rot": 1,
+     "chose_left_col": 1,
+     "n_legal": 17
+    },
+    {
+     "piece": 875,
+     "board_hash": 2636462798,
+     "lines": 343,
+     "chose_rot": 3,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 900,
+     "board_hash": 466287182,
+     "lines": 350,
+     "chose_rot": 1,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 925,
+     "board_hash": 2255902235,
+     "lines": 365,
+     "chose_rot": 2,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 950,
+     "board_hash": 3347534467,
+     "lines": 370,
+     "chose_rot": 1,
+     "chose_left_col": 1,
+     "n_legal": 17
+    },
+    {
+     "piece": 975,
+     "board_hash": 1911193645,
+     "lines": 383,
+     "chose_rot": 1,
+     "chose_left_col": 2,
+     "n_legal": 17
+    },
+    {
+     "piece": 1000,
+     "board_hash": 2718612313,
+     "lines": 394,
+     "chose_rot": 0,
+     "chose_left_col": 3,
+     "n_legal": 9
+    },
+    {
+     "piece": 1025,
+     "board_hash": 705135121,
+     "lines": 405,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 9
+    },
+    {
+     "piece": 1050,
+     "board_hash": 2666750651,
+     "lines": 416,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 1075,
+     "board_hash": 3782019726,
+     "lines": 424,
+     "chose_rot": 0,
+     "chose_left_col": 2,
+     "n_legal": 9
+    },
+    {
+     "piece": 1100,
+     "board_hash": 3006190555,
+     "lines": 433,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 1125,
+     "board_hash": 1583867471,
+     "lines": 440,
+     "chose_rot": 1,
+     "chose_left_col": 2,
+     "n_legal": 17
+    },
+    {
+     "piece": 1150,
+     "board_hash": 424100002,
+     "lines": 450,
+     "chose_rot": 0,
+     "chose_left_col": 4,
+     "n_legal": 17
+    },
+    {
+     "piece": 1175,
+     "board_hash": 1635563331,
+     "lines": 466,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 1200,
+     "board_hash": 1707839761,
+     "lines": 472,
+     "chose_rot": 2,
+     "chose_left_col": 4,
+     "n_legal": 34
+    },
+    {
+     "piece": 1225,
+     "board_hash": 1864153252,
+     "lines": 485,
+     "chose_rot": 3,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 1250,
+     "board_hash": 3547175421,
+     "lines": 497,
+     "chose_rot": 3,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 1275,
+     "board_hash": 134576762,
+     "lines": 504,
+     "chose_rot": 1,
+     "chose_left_col": 1,
+     "n_legal": 17
+    },
+    {
+     "piece": 1300,
+     "board_hash": 3597481404,
+     "lines": 517,
+     "chose_rot": 0,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 1325,
+     "board_hash": 97593843,
+     "lines": 526,
+     "chose_rot": 0,
+     "chose_left_col": 8,
+     "n_legal": 9
+    },
+    {
+     "piece": 1350,
+     "board_hash": 1706764499,
+     "lines": 530,
+     "chose_rot": 2,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 1375,
+     "board_hash": 868614022,
+     "lines": 541,
+     "chose_rot": 1,
+     "chose_left_col": 2,
+     "n_legal": 17
+    },
+    {
+     "piece": 1400,
+     "board_hash": 2692332297,
+     "lines": 554,
+     "chose_rot": 2,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 1425,
+     "board_hash": 67972886,
+     "lines": 560,
+     "chose_rot": 2,
+     "chose_left_col": 4,
+     "n_legal": 34
+    },
+    {
+     "piece": 1450,
+     "board_hash": 543298577,
+     "lines": 571,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 1475,
+     "board_hash": 3546711884,
+     "lines": 584,
+     "chose_rot": 0,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 1500,
+     "board_hash": 1405556890,
+     "lines": 594,
+     "chose_rot": 1,
+     "chose_left_col": 1,
+     "n_legal": 17
+    },
+    {
+     "piece": 1525,
+     "board_hash": 327489791,
+     "lines": 605,
+     "chose_rot": 0,
+     "chose_left_col": 1,
+     "n_legal": 9
+    },
+    {
+     "piece": 1550,
+     "board_hash": 175424562,
+     "lines": 616,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 1575,
+     "board_hash": 1543921958,
+     "lines": 621,
+     "chose_rot": 1,
+     "chose_left_col": 1,
+     "n_legal": 17
+    },
+    {
+     "piece": 1600,
+     "board_hash": 3606877596,
+     "lines": 638,
+     "chose_rot": 2,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 1625,
+     "board_hash": 1017567513,
+     "lines": 645,
+     "chose_rot": 1,
+     "chose_left_col": 1,
+     "n_legal": 17
+    },
+    {
+     "piece": 1650,
+     "board_hash": 4199603827,
+     "lines": 655,
+     "chose_rot": 0,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 1675,
+     "board_hash": 894371850,
+     "lines": 668,
+     "chose_rot": 0,
+     "chose_left_col": 3,
+     "n_legal": 9
+    },
+    {
+     "piece": 1700,
+     "board_hash": 1103029807,
+     "lines": 677,
+     "chose_rot": 0,
+     "chose_left_col": 4,
+     "n_legal": 17
+    },
+    {
+     "piece": 1725,
+     "board_hash": 4208474817,
+     "lines": 686,
+     "chose_rot": 2,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 1750,
+     "board_hash": 4050193485,
+     "lines": 696,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 1775,
+     "board_hash": 827173757,
+     "lines": 707,
+     "chose_rot": 1,
+     "chose_left_col": 2,
+     "n_legal": 17
+    },
+    {
+     "piece": 1800,
+     "board_hash": 1993209005,
+     "lines": 719,
+     "chose_rot": 2,
+     "chose_left_col": 4,
+     "n_legal": 34
+    },
+    {
+     "piece": 1825,
+     "board_hash": 2130667091,
+     "lines": 728,
+     "chose_rot": 0,
+     "chose_left_col": 4,
+     "n_legal": 34
+    },
+    {
+     "piece": 1850,
+     "board_hash": 899883192,
+     "lines": 738,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 1875,
+     "board_hash": 3497745657,
+     "lines": 749,
+     "chose_rot": 0,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 1900,
+     "board_hash": 3351176406,
+     "lines": 757,
+     "chose_rot": 0,
+     "chose_left_col": 3,
+     "n_legal": 17
+    },
+    {
+     "piece": 1925,
+     "board_hash": 1295235204,
+     "lines": 762,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 1950,
+     "board_hash": 3192403386,
+     "lines": 774,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 1975,
+     "board_hash": 3421366046,
+     "lines": 787,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 2000,
+     "board_hash": 190055707,
+     "lines": 796,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 2025,
+     "board_hash": 674530075,
+     "lines": 807,
+     "chose_rot": 2,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 2050,
+     "board_hash": 3061578083,
+     "lines": 817,
+     "chose_rot": 0,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 2075,
+     "board_hash": 1606766761,
+     "lines": 823,
+     "chose_rot": 0,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 2100,
+     "board_hash": 2558784004,
+     "lines": 835,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 17
+    },
+    {
+     "piece": 2125,
+     "board_hash": 2440142591,
+     "lines": 842,
+     "chose_rot": 0,
+     "chose_left_col": 2,
+     "n_legal": 9
+    },
+    {
+     "piece": 2150,
+     "board_hash": 2738259286,
+     "lines": 851,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 2175,
+     "board_hash": 3146376396,
+     "lines": 863,
+     "chose_rot": 1,
+     "chose_left_col": 4,
+     "n_legal": 34
+    },
+    {
+     "piece": 2200,
+     "board_hash": 4274736464,
+     "lines": 878,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 2225,
+     "board_hash": 3269268794,
+     "lines": 880,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 2250,
+     "board_hash": 3082830443,
+     "lines": 895,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 2275,
+     "board_hash": 14936848,
+     "lines": 907,
+     "chose_rot": 0,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 2300,
+     "board_hash": 4031468366,
+     "lines": 916,
+     "chose_rot": 1,
+     "chose_left_col": 1,
+     "n_legal": 17
+    },
+    {
+     "piece": 2325,
+     "board_hash": 2015583483,
+     "lines": 928,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 2350,
+     "board_hash": 3976129988,
+     "lines": 935,
+     "chose_rot": 1,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 2375,
+     "board_hash": 4007032278,
+     "lines": 946,
+     "chose_rot": 1,
+     "chose_left_col": 2,
+     "n_legal": 17
+    },
+    {
+     "piece": 2400,
+     "board_hash": 1531973980,
+     "lines": 957,
+     "chose_rot": 3,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 2425,
+     "board_hash": 2217892600,
+     "lines": 967,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 2450,
+     "board_hash": 3906216966,
+     "lines": 973,
+     "chose_rot": 0,
+     "chose_left_col": 4,
+     "n_legal": 9
+    },
+    {
+     "piece": 2475,
+     "board_hash": 3578710436,
+     "lines": 987,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 9
+    },
+    {
+     "piece": 2500,
+     "board_hash": 2144124453,
+     "lines": 997,
+     "chose_rot": 0,
+     "chose_left_col": 1,
+     "n_legal": 17
+    },
+    {
+     "piece": 2525,
+     "board_hash": 464489087,
+     "lines": 1006,
+     "chose_rot": 3,
+     "chose_left_col": 4,
+     "n_legal": 34
+    },
+    {
+     "piece": 2550,
+     "board_hash": 3713688561,
+     "lines": 1018,
+     "chose_rot": 1,
+     "chose_left_col": 2,
+     "n_legal": 17
+    },
+    {
+     "piece": 2575,
+     "board_hash": 1007578597,
+     "lines": 1026,
+     "chose_rot": 2,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 2600,
+     "board_hash": 1369155323,
+     "lines": 1037,
+     "chose_rot": 1,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 2625,
+     "board_hash": 3335378568,
+     "lines": 1044,
+     "chose_rot": 0,
+     "chose_left_col": 6,
+     "n_legal": 9
+    },
+    {
+     "piece": 2650,
+     "board_hash": 1995555942,
+     "lines": 1057,
+     "chose_rot": 0,
+     "chose_left_col": 6,
+     "n_legal": 9
+    },
+    {
+     "piece": 2675,
+     "board_hash": 4275517219,
+     "lines": 1066,
+     "chose_rot": 3,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 2700,
+     "board_hash": 802891634,
+     "lines": 1072,
+     "chose_rot": 3,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 2725,
+     "board_hash": 1920050665,
+     "lines": 1089,
+     "chose_rot": 0,
+     "chose_left_col": 6,
+     "n_legal": 17
+    },
+    {
+     "piece": 2750,
+     "board_hash": 1880252604,
+     "lines": 1094,
+     "chose_rot": 0,
+     "chose_left_col": 8,
+     "n_legal": 9
+    },
+    {
+     "piece": 2775,
+     "board_hash": 2887631685,
+     "lines": 1107,
+     "chose_rot": 1,
+     "chose_left_col": 2,
+     "n_legal": 17
+    },
+    {
+     "piece": 2800,
+     "board_hash": 1809686240,
+     "lines": 1119,
+     "chose_rot": 0,
+     "chose_left_col": 2,
+     "n_legal": 17
+    },
+    {
+     "piece": 2825,
+     "board_hash": 1168569605,
+     "lines": 1127,
+     "chose_rot": 3,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 2850,
+     "board_hash": 4176942150,
+     "lines": 1138,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 2875,
+     "board_hash": 2517196972,
+     "lines": 1147,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 2900,
+     "board_hash": 3087641092,
+     "lines": 1156,
+     "chose_rot": 0,
+     "chose_left_col": 6,
+     "n_legal": 17
+    },
+    {
+     "piece": 2925,
+     "board_hash": 3994629760,
+     "lines": 1163,
+     "chose_rot": 0,
+     "chose_left_col": 2,
+     "n_legal": 9
+    },
+    {
+     "piece": 2950,
+     "board_hash": 3595751142,
+     "lines": 1175,
+     "chose_rot": 0,
+     "chose_left_col": 4,
+     "n_legal": 17
+    },
+    {
+     "piece": 2975,
+     "board_hash": 3478434957,
+     "lines": 1185,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 3000,
+     "board_hash": 1417987098,
+     "lines": 1196,
+     "chose_rot": 1,
+     "chose_left_col": 4,
+     "n_legal": 17
+    },
+    {
+     "piece": 3025,
+     "board_hash": 1227435340,
+     "lines": 1209,
+     "chose_rot": 0,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 3050,
+     "board_hash": 546157040,
+     "lines": 1216,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 17
+    },
+    {
+     "piece": 3075,
+     "board_hash": 507964644,
+     "lines": 1228,
+     "chose_rot": 0,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 3100,
+     "board_hash": 189986170,
+     "lines": 1233,
+     "chose_rot": 2,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 3125,
+     "board_hash": 73402313,
+     "lines": 1246,
+     "chose_rot": 1,
+     "chose_left_col": 9,
+     "n_legal": 17
+    },
+    {
+     "piece": 3150,
+     "board_hash": 192968599,
+     "lines": 1254,
+     "chose_rot": 1,
+     "chose_left_col": 1,
+     "n_legal": 17
+    },
+    {
+     "piece": 3175,
+     "board_hash": 1042103444,
+     "lines": 1262,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 3200,
+     "board_hash": 1671297262,
+     "lines": 1272,
+     "chose_rot": 3,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 3225,
+     "board_hash": 3351417478,
+     "lines": 1286,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 17
+    },
+    {
+     "piece": 3250,
+     "board_hash": 55123520,
+     "lines": 1297,
+     "chose_rot": 0,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 3275,
+     "board_hash": 1653527427,
+     "lines": 1304,
+     "chose_rot": 3,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 3300,
+     "board_hash": 2024896736,
+     "lines": 1315,
+     "chose_rot": 1,
+     "chose_left_col": 2,
+     "n_legal": 17
+    },
+    {
+     "piece": 3325,
+     "board_hash": 2271866375,
+     "lines": 1326,
+     "chose_rot": 0,
+     "chose_left_col": 3,
+     "n_legal": 17
+    },
+    {
+     "piece": 3350,
+     "board_hash": 3268661276,
+     "lines": 1337,
+     "chose_rot": 1,
+     "chose_left_col": 7,
+     "n_legal": 17
+    },
+    {
+     "piece": 3375,
+     "board_hash": 1229382590,
+     "lines": 1344,
+     "chose_rot": 1,
+     "chose_left_col": 2,
+     "n_legal": 17
+    },
+    {
+     "piece": 3400,
+     "board_hash": 535186669,
+     "lines": 1359,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 9
+    },
+    {
+     "piece": 3425,
+     "board_hash": 681720272,
+     "lines": 1368,
+     "chose_rot": 3,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 3450,
+     "board_hash": 2395783412,
+     "lines": 1373,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 17
+    },
+    {
+     "piece": 3475,
+     "board_hash": 2369741161,
+     "lines": 1386,
+     "chose_rot": 3,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 3500,
+     "board_hash": 4269829116,
+     "lines": 1392,
+     "chose_rot": 1,
+     "chose_left_col": 4,
+     "n_legal": 17
+    },
+    {
+     "piece": 3525,
+     "board_hash": 1886348795,
+     "lines": 1407,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 3550,
+     "board_hash": 3870313160,
+     "lines": 1415,
+     "chose_rot": 0,
+     "chose_left_col": 8,
+     "n_legal": 9
+    },
+    {
+     "piece": 3575,
+     "board_hash": 3626997552,
+     "lines": 1425,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 3600,
+     "board_hash": 1730618602,
+     "lines": 1433,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 3625,
+     "board_hash": 252668297,
+     "lines": 1443,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 3650,
+     "board_hash": 2649871460,
+     "lines": 1452,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 17
+    },
+    {
+     "piece": 3675,
+     "board_hash": 538024517,
+     "lines": 1464,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 17
+    },
+    {
+     "piece": 3700,
+     "board_hash": 2584246544,
+     "lines": 1473,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 3725,
+     "board_hash": 2262553333,
+     "lines": 1481,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 17
+    },
+    {
+     "piece": 3750,
+     "board_hash": 3850684804,
+     "lines": 1485,
+     "chose_rot": 1,
+     "chose_left_col": 7,
+     "n_legal": 14
+    },
+    {
+     "piece": 3769,
+     "board_hash": 323165590,
+     "lines": 1493,
+     "final": true,
+     "game_over": true
+    }
+   ]
+  },
+  "900004": {
+   "lines": 951,
+   "pieces": 2423,
+   "checkpoints": [
+    {
+     "piece": 0,
+     "board_hash": 2614092085,
+     "lines": 0,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 25,
+     "board_hash": 3107404201,
+     "lines": 8,
+     "chose_rot": 1,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 50,
+     "board_hash": 2523684564,
+     "lines": 17,
+     "chose_rot": 3,
+     "chose_left_col": 4,
+     "n_legal": 34
+    },
+    {
+     "piece": 75,
+     "board_hash": 3065989294,
+     "lines": 28,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 9
+    },
+    {
+     "piece": 100,
+     "board_hash": 2261985976,
+     "lines": 37,
+     "chose_rot": 1,
+     "chose_left_col": 2,
+     "n_legal": 17
+    },
+    {
+     "piece": 125,
+     "board_hash": 1126278174,
+     "lines": 48,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 150,
+     "board_hash": 3055658384,
+     "lines": 54,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 175,
+     "board_hash": 1349347215,
+     "lines": 68,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 200,
+     "board_hash": 3238384788,
+     "lines": 77,
+     "chose_rot": 1,
+     "chose_left_col": 1,
+     "n_legal": 17
+    },
+    {
+     "piece": 225,
+     "board_hash": 710297829,
+     "lines": 84,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 250,
+     "board_hash": 1335950410,
+     "lines": 95,
+     "chose_rot": 1,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 275,
+     "board_hash": 1999659314,
+     "lines": 106,
+     "chose_rot": 1,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 300,
+     "board_hash": 2288422590,
+     "lines": 111,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 325,
+     "board_hash": 3156332463,
+     "lines": 122,
+     "chose_rot": 3,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 350,
+     "board_hash": 3107697456,
+     "lines": 131,
+     "chose_rot": 1,
+     "chose_left_col": 4,
+     "n_legal": 34
+    },
+    {
+     "piece": 375,
+     "board_hash": 2024906624,
+     "lines": 147,
+     "chose_rot": 0,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 400,
+     "board_hash": 2566656453,
+     "lines": 156,
+     "chose_rot": 1,
+     "chose_left_col": 4,
+     "n_legal": 34
+    },
+    {
+     "piece": 425,
+     "board_hash": 3866228790,
+     "lines": 164,
+     "chose_rot": 2,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 450,
+     "board_hash": 3034802780,
+     "lines": 170,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 475,
+     "board_hash": 2590556032,
+     "lines": 188,
+     "chose_rot": 2,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 500,
+     "board_hash": 1628509917,
+     "lines": 195,
+     "chose_rot": 1,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 525,
+     "board_hash": 95876408,
+     "lines": 203,
+     "chose_rot": 0,
+     "chose_left_col": 4,
+     "n_legal": 17
+    },
+    {
+     "piece": 550,
+     "board_hash": 2015219203,
+     "lines": 219,
+     "chose_rot": 3,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 575,
+     "board_hash": 4083324939,
+     "lines": 224,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 17
+    },
+    {
+     "piece": 600,
+     "board_hash": 3738937512,
+     "lines": 237,
+     "chose_rot": 3,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 625,
+     "board_hash": 1721348069,
+     "lines": 245,
+     "chose_rot": 3,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 650,
+     "board_hash": 1277842401,
+     "lines": 253,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 675,
+     "board_hash": 1390653106,
+     "lines": 260,
+     "chose_rot": 1,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 700,
+     "board_hash": 144641286,
+     "lines": 277,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 725,
+     "board_hash": 988643595,
+     "lines": 288,
+     "chose_rot": 0,
+     "chose_left_col": 3,
+     "n_legal": 17
+    },
+    {
+     "piece": 750,
+     "board_hash": 2620669164,
+     "lines": 293,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 775,
+     "board_hash": 267730545,
+     "lines": 302,
+     "chose_rot": 1,
+     "chose_left_col": 7,
+     "n_legal": 17
+    },
+    {
+     "piece": 800,
+     "board_hash": 1041098481,
+     "lines": 315,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 825,
+     "board_hash": 3548483875,
+     "lines": 324,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 850,
+     "board_hash": 1202412656,
+     "lines": 334,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 875,
+     "board_hash": 4169167378,
+     "lines": 347,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 900,
+     "board_hash": 2962654330,
+     "lines": 351,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 17
+    },
+    {
+     "piece": 925,
+     "board_hash": 3717712065,
+     "lines": 364,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 17
+    },
+    {
+     "piece": 950,
+     "board_hash": 1688500088,
+     "lines": 377,
+     "chose_rot": 1,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 975,
+     "board_hash": 3513387775,
+     "lines": 387,
+     "chose_rot": 1,
+     "chose_left_col": 9,
+     "n_legal": 17
+    },
+    {
+     "piece": 1000,
+     "board_hash": 2190531222,
+     "lines": 395,
+     "chose_rot": 1,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 1025,
+     "board_hash": 350733509,
+     "lines": 408,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 1050,
+     "board_hash": 3073222964,
+     "lines": 418,
+     "chose_rot": 2,
+     "chose_left_col": 4,
+     "n_legal": 34
+    },
+    {
+     "piece": 1075,
+     "board_hash": 3038876154,
+     "lines": 427,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 1100,
+     "board_hash": 812030395,
+     "lines": 435,
+     "chose_rot": 1,
+     "chose_left_col": 7,
+     "n_legal": 17
+    },
+    {
+     "piece": 1125,
+     "board_hash": 30444480,
+     "lines": 448,
+     "chose_rot": 0,
+     "chose_left_col": 6,
+     "n_legal": 9
+    },
+    {
+     "piece": 1150,
+     "board_hash": 4113960405,
+     "lines": 456,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 1175,
+     "board_hash": 1606037348,
+     "lines": 465,
+     "chose_rot": 2,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 1200,
+     "board_hash": 3955620875,
+     "lines": 474,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 9
+    },
+    {
+     "piece": 1225,
+     "board_hash": 2449566027,
+     "lines": 486,
+     "chose_rot": 0,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 1250,
+     "board_hash": 1313886384,
+     "lines": 497,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 1275,
+     "board_hash": 1869868777,
+     "lines": 505,
+     "chose_rot": 1,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 1300,
+     "board_hash": 362717760,
+     "lines": 515,
+     "chose_rot": 3,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 1325,
+     "board_hash": 3793804185,
+     "lines": 525,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 17
+    },
+    {
+     "piece": 1350,
+     "board_hash": 4251974229,
+     "lines": 534,
+     "chose_rot": 3,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 1375,
+     "board_hash": 2099884362,
+     "lines": 543,
+     "chose_rot": 2,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 1400,
+     "board_hash": 2896117671,
+     "lines": 555,
+     "chose_rot": 2,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 1425,
+     "board_hash": 1030322796,
+     "lines": 563,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 1450,
+     "board_hash": 2709856195,
+     "lines": 573,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 1475,
+     "board_hash": 2141614629,
+     "lines": 585,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 1500,
+     "board_hash": 1244997710,
+     "lines": 595,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 17
+    },
+    {
+     "piece": 1525,
+     "board_hash": 2378071708,
+     "lines": 601,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 17
+    },
+    {
+     "piece": 1550,
+     "board_hash": 1779274399,
+     "lines": 613,
+     "chose_rot": 0,
+     "chose_left_col": 2,
+     "n_legal": 17
+    },
+    {
+     "piece": 1575,
+     "board_hash": 195762236,
+     "lines": 628,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 1600,
+     "board_hash": 684342288,
+     "lines": 636,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 1625,
+     "board_hash": 2129732135,
+     "lines": 648,
+     "chose_rot": 0,
+     "chose_left_col": 4,
+     "n_legal": 9
+    },
+    {
+     "piece": 1650,
+     "board_hash": 2735539459,
+     "lines": 651,
+     "chose_rot": 1,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 1675,
+     "board_hash": 686193937,
+     "lines": 667,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 9
+    },
+    {
+     "piece": 1700,
+     "board_hash": 945850982,
+     "lines": 671,
+     "chose_rot": 1,
+     "chose_left_col": 4,
+     "n_legal": 17
+    },
+    {
+     "piece": 1725,
+     "board_hash": 2384576667,
+     "lines": 686,
+     "chose_rot": 0,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 1750,
+     "board_hash": 1590861961,
+     "lines": 693,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 1775,
+     "board_hash": 88553089,
+     "lines": 704,
+     "chose_rot": 1,
+     "chose_left_col": 2,
+     "n_legal": 17
+    },
+    {
+     "piece": 1800,
+     "board_hash": 4103570316,
+     "lines": 713,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 1825,
+     "board_hash": 4082732517,
+     "lines": 723,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 1850,
+     "board_hash": 1654015480,
+     "lines": 737,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 1875,
+     "board_hash": 129571550,
+     "lines": 742,
+     "chose_rot": 3,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 1900,
+     "board_hash": 3689911961,
+     "lines": 755,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 17
+    },
+    {
+     "piece": 1925,
+     "board_hash": 2148654715,
+     "lines": 765,
+     "chose_rot": 0,
+     "chose_left_col": 7,
+     "n_legal": 9
+    },
+    {
+     "piece": 1950,
+     "board_hash": 2730015973,
+     "lines": 772,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 1975,
+     "board_hash": 1637387036,
+     "lines": 788,
+     "chose_rot": 2,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 2000,
+     "board_hash": 1663576896,
+     "lines": 798,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 17
+    },
+    {
+     "piece": 2025,
+     "board_hash": 2045333280,
+     "lines": 808,
+     "chose_rot": 1,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 2050,
+     "board_hash": 1676336700,
+     "lines": 819,
+     "chose_rot": 1,
+     "chose_left_col": 2,
+     "n_legal": 17
+    },
+    {
+     "piece": 2075,
+     "board_hash": 1099705637,
+     "lines": 828,
+     "chose_rot": 1,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 2100,
+     "board_hash": 1412534293,
+     "lines": 837,
+     "chose_rot": 3,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 2125,
+     "board_hash": 2265711346,
+     "lines": 848,
+     "chose_rot": 2,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 2150,
+     "board_hash": 1935584936,
+     "lines": 856,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 2175,
+     "board_hash": 3209053516,
+     "lines": 866,
+     "chose_rot": 0,
+     "chose_left_col": 8,
+     "n_legal": 9
+    },
+    {
+     "piece": 2200,
+     "board_hash": 1043234346,
+     "lines": 875,
+     "chose_rot": 1,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 2225,
+     "board_hash": 2182219881,
+     "lines": 882,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 9
+    },
+    {
+     "piece": 2250,
+     "board_hash": 3511436525,
+     "lines": 895,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 2275,
+     "board_hash": 1124649226,
+     "lines": 901,
+     "chose_rot": 1,
+     "chose_left_col": 1,
+     "n_legal": 17
+    },
+    {
+     "piece": 2300,
+     "board_hash": 490899263,
+     "lines": 907,
+     "chose_rot": 1,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 2325,
+     "board_hash": 1182140033,
+     "lines": 917,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 2350,
+     "board_hash": 460030873,
+     "lines": 924,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 31
+    },
+    {
+     "piece": 2375,
+     "board_hash": 3413154888,
+     "lines": 939,
+     "chose_rot": 0,
+     "chose_left_col": 1,
+     "n_legal": 9
+    },
+    {
+     "piece": 2400,
+     "board_hash": 818478004,
+     "lines": 946,
+     "chose_rot": 0,
+     "chose_left_col": 1,
+     "n_legal": 9
+    },
+    {
+     "piece": 2423,
+     "board_hash": 1423403435,
+     "lines": 951,
+     "final": true,
+     "game_over": true
+    }
+   ]
+  },
+  "900009": {
+   "lines": 4664,
+   "pieces": 11703,
+   "checkpoints": [
+    {
+     "piece": 0,
+     "board_hash": 2614092085,
+     "lines": 0,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 9
+    },
+    {
+     "piece": 25,
+     "board_hash": 1748253069,
+     "lines": 5,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 50,
+     "board_hash": 1226284251,
+     "lines": 18,
+     "chose_rot": 3,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 75,
+     "board_hash": 4170452062,
+     "lines": 24,
+     "chose_rot": 2,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 100,
+     "board_hash": 1943112264,
+     "lines": 32,
+     "chose_rot": 2,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 125,
+     "board_hash": 684818598,
+     "lines": 46,
+     "chose_rot": 3,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 150,
+     "board_hash": 4250880773,
+     "lines": 57,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 17
+    },
+    {
+     "piece": 175,
+     "board_hash": 2581400908,
+     "lines": 65,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 200,
+     "board_hash": 1681749081,
+     "lines": 76,
+     "chose_rot": 0,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 225,
+     "board_hash": 1980927314,
+     "lines": 82,
+     "chose_rot": 1,
+     "chose_left_col": 1,
+     "n_legal": 17
+    },
+    {
+     "piece": 250,
+     "board_hash": 611527013,
+     "lines": 93,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 17
+    },
+    {
+     "piece": 275,
+     "board_hash": 2183396823,
+     "lines": 103,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 300,
+     "board_hash": 4282225307,
+     "lines": 114,
+     "chose_rot": 0,
+     "chose_left_col": 2,
+     "n_legal": 17
+    },
+    {
+     "piece": 325,
+     "board_hash": 2886641533,
+     "lines": 127,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 350,
+     "board_hash": 1889537116,
+     "lines": 136,
+     "chose_rot": 3,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 375,
+     "board_hash": 1976154422,
+     "lines": 143,
+     "chose_rot": 1,
+     "chose_left_col": 1,
+     "n_legal": 17
+    },
+    {
+     "piece": 400,
+     "board_hash": 2246450036,
+     "lines": 152,
+     "chose_rot": 0,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 425,
+     "board_hash": 3829384850,
+     "lines": 163,
+     "chose_rot": 2,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 450,
+     "board_hash": 932491940,
+     "lines": 179,
+     "chose_rot": 1,
+     "chose_left_col": 9,
+     "n_legal": 17
+    },
+    {
+     "piece": 475,
+     "board_hash": 2848184650,
+     "lines": 186,
+     "chose_rot": 1,
+     "chose_left_col": 4,
+     "n_legal": 17
+    },
+    {
+     "piece": 500,
+     "board_hash": 927022487,
+     "lines": 195,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 525,
+     "board_hash": 2841612878,
+     "lines": 208,
+     "chose_rot": 0,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 550,
+     "board_hash": 3140345931,
+     "lines": 216,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 575,
+     "board_hash": 1812525190,
+     "lines": 229,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 9
+    },
+    {
+     "piece": 600,
+     "board_hash": 1905523668,
+     "lines": 235,
+     "chose_rot": 3,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 625,
+     "board_hash": 517628625,
+     "lines": 248,
+     "chose_rot": 0,
+     "chose_left_col": 3,
+     "n_legal": 9
+    },
+    {
+     "piece": 650,
+     "board_hash": 3957358889,
+     "lines": 258,
+     "chose_rot": 0,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 675,
+     "board_hash": 2385159923,
+     "lines": 267,
+     "chose_rot": 0,
+     "chose_left_col": 2,
+     "n_legal": 9
+    },
+    {
+     "piece": 700,
+     "board_hash": 2072985014,
+     "lines": 277,
+     "chose_rot": 0,
+     "chose_left_col": 6,
+     "n_legal": 9
+    },
+    {
+     "piece": 725,
+     "board_hash": 1308730725,
+     "lines": 287,
+     "chose_rot": 1,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 750,
+     "board_hash": 4070908022,
+     "lines": 297,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 17
+    },
+    {
+     "piece": 775,
+     "board_hash": 1273725581,
+     "lines": 307,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 800,
+     "board_hash": 1793810424,
+     "lines": 315,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 825,
+     "board_hash": 1871883943,
+     "lines": 328,
+     "chose_rot": 0,
+     "chose_left_col": 1,
+     "n_legal": 9
+    },
+    {
+     "piece": 850,
+     "board_hash": 3133529086,
+     "lines": 337,
+     "chose_rot": 0,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 875,
+     "board_hash": 1033791667,
+     "lines": 347,
+     "chose_rot": 0,
+     "chose_left_col": 8,
+     "n_legal": 9
+    },
+    {
+     "piece": 900,
+     "board_hash": 1035685932,
+     "lines": 355,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 9
+    },
+    {
+     "piece": 925,
+     "board_hash": 2458366083,
+     "lines": 362,
+     "chose_rot": 0,
+     "chose_left_col": 1,
+     "n_legal": 9
+    },
+    {
+     "piece": 950,
+     "board_hash": 3716543318,
+     "lines": 377,
+     "chose_rot": 1,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 975,
+     "board_hash": 1227435340,
+     "lines": 389,
+     "chose_rot": 0,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 1000,
+     "board_hash": 4258760780,
+     "lines": 397,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 1025,
+     "board_hash": 2318248122,
+     "lines": 405,
+     "chose_rot": 1,
+     "chose_left_col": 2,
+     "n_legal": 17
+    },
+    {
+     "piece": 1050,
+     "board_hash": 1409815996,
+     "lines": 415,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 1075,
+     "board_hash": 4115089744,
+     "lines": 422,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 1100,
+     "board_hash": 2963439103,
+     "lines": 435,
+     "chose_rot": 3,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 1125,
+     "board_hash": 1083113169,
+     "lines": 441,
+     "chose_rot": 1,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 1150,
+     "board_hash": 434660495,
+     "lines": 451,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 1175,
+     "board_hash": 3113098203,
+     "lines": 466,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 1200,
+     "board_hash": 3447252763,
+     "lines": 477,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 9
+    },
+    {
+     "piece": 1225,
+     "board_hash": 3244556492,
+     "lines": 482,
+     "chose_rot": 0,
+     "chose_left_col": 8,
+     "n_legal": 9
+    },
+    {
+     "piece": 1250,
+     "board_hash": 1443235337,
+     "lines": 496,
+     "chose_rot": 0,
+     "chose_left_col": 6,
+     "n_legal": 17
+    },
+    {
+     "piece": 1275,
+     "board_hash": 896607184,
+     "lines": 505,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 17
+    },
+    {
+     "piece": 1300,
+     "board_hash": 2851996967,
+     "lines": 514,
+     "chose_rot": 0,
+     "chose_left_col": 6,
+     "n_legal": 17
+    },
+    {
+     "piece": 1325,
+     "board_hash": 3162005069,
+     "lines": 525,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 17
+    },
+    {
+     "piece": 1350,
+     "board_hash": 2651497512,
+     "lines": 533,
+     "chose_rot": 0,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 1375,
+     "board_hash": 416446032,
+     "lines": 537,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 1400,
+     "board_hash": 933633265,
+     "lines": 547,
+     "chose_rot": 1,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 1425,
+     "board_hash": 175048545,
+     "lines": 560,
+     "chose_rot": 1,
+     "chose_left_col": 1,
+     "n_legal": 17
+    },
+    {
+     "piece": 1450,
+     "board_hash": 381641426,
+     "lines": 572,
+     "chose_rot": 0,
+     "chose_left_col": 7,
+     "n_legal": 9
+    },
+    {
+     "piece": 1475,
+     "board_hash": 156592964,
+     "lines": 581,
+     "chose_rot": 1,
+     "chose_left_col": 4,
+     "n_legal": 17
+    },
+    {
+     "piece": 1500,
+     "board_hash": 3619847222,
+     "lines": 593,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 1525,
+     "board_hash": 1469656290,
+     "lines": 605,
+     "chose_rot": 0,
+     "chose_left_col": 8,
+     "n_legal": 9
+    },
+    {
+     "piece": 1550,
+     "board_hash": 1763467139,
+     "lines": 611,
+     "chose_rot": 2,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 1575,
+     "board_hash": 3361570952,
+     "lines": 625,
+     "chose_rot": 0,
+     "chose_left_col": 4,
+     "n_legal": 34
+    },
+    {
+     "piece": 1600,
+     "board_hash": 199420691,
+     "lines": 633,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 17
+    },
+    {
+     "piece": 1625,
+     "board_hash": 2351916134,
+     "lines": 644,
+     "chose_rot": 3,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 1650,
+     "board_hash": 3855009167,
+     "lines": 654,
+     "chose_rot": 0,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 1675,
+     "board_hash": 1595017286,
+     "lines": 660,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 1700,
+     "board_hash": 4195025232,
+     "lines": 669,
+     "chose_rot": 1,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 1725,
+     "board_hash": 340173388,
+     "lines": 685,
+     "chose_rot": 3,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 1750,
+     "board_hash": 1145819433,
+     "lines": 696,
+     "chose_rot": 0,
+     "chose_left_col": 4,
+     "n_legal": 17
+    },
+    {
+     "piece": 1775,
+     "board_hash": 2485003672,
+     "lines": 708,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 1800,
+     "board_hash": 1261515976,
+     "lines": 717,
+     "chose_rot": 0,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 1825,
+     "board_hash": 2274269578,
+     "lines": 727,
+     "chose_rot": 3,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 1850,
+     "board_hash": 3230763078,
+     "lines": 737,
+     "chose_rot": 0,
+     "chose_left_col": 3,
+     "n_legal": 9
+    },
+    {
+     "piece": 1875,
+     "board_hash": 2025036010,
+     "lines": 748,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 1900,
+     "board_hash": 2254428532,
+     "lines": 757,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 1925,
+     "board_hash": 2932658604,
+     "lines": 768,
+     "chose_rot": 0,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 1950,
+     "board_hash": 483090883,
+     "lines": 776,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 1975,
+     "board_hash": 3330112573,
+     "lines": 784,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 2000,
+     "board_hash": 761901011,
+     "lines": 796,
+     "chose_rot": 2,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 2025,
+     "board_hash": 2251903096,
+     "lines": 807,
+     "chose_rot": 2,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 2050,
+     "board_hash": 538118066,
+     "lines": 818,
+     "chose_rot": 1,
+     "chose_left_col": 9,
+     "n_legal": 17
+    },
+    {
+     "piece": 2075,
+     "board_hash": 1112109673,
+     "lines": 822,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 2100,
+     "board_hash": 4128146687,
+     "lines": 836,
+     "chose_rot": 1,
+     "chose_left_col": 2,
+     "n_legal": 17
+    },
+    {
+     "piece": 2125,
+     "board_hash": 1425018104,
+     "lines": 844,
+     "chose_rot": 0,
+     "chose_left_col": 1,
+     "n_legal": 17
+    },
+    {
+     "piece": 2150,
+     "board_hash": 1676794509,
+     "lines": 851,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 17
+    },
+    {
+     "piece": 2175,
+     "board_hash": 3150269517,
+     "lines": 862,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 2200,
+     "board_hash": 3732864981,
+     "lines": 873,
+     "chose_rot": 0,
+     "chose_left_col": 4,
+     "n_legal": 9
+    },
+    {
+     "piece": 2225,
+     "board_hash": 3235073607,
+     "lines": 883,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 2250,
+     "board_hash": 2426250747,
+     "lines": 888,
+     "chose_rot": 3,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 2275,
+     "board_hash": 2743569818,
+     "lines": 899,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 2300,
+     "board_hash": 1680333884,
+     "lines": 910,
+     "chose_rot": 0,
+     "chose_left_col": 1,
+     "n_legal": 17
+    },
+    {
+     "piece": 2325,
+     "board_hash": 2445285407,
+     "lines": 923,
+     "chose_rot": 1,
+     "chose_left_col": 1,
+     "n_legal": 17
+    },
+    {
+     "piece": 2350,
+     "board_hash": 249276190,
+     "lines": 937,
+     "chose_rot": 1,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 2375,
+     "board_hash": 2167246931,
+     "lines": 947,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 2400,
+     "board_hash": 3865349757,
+     "lines": 951,
+     "chose_rot": 1,
+     "chose_left_col": 4,
+     "n_legal": 17
+    },
+    {
+     "piece": 2425,
+     "board_hash": 2504562255,
+     "lines": 965,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 9
+    },
+    {
+     "piece": 2450,
+     "board_hash": 734661808,
+     "lines": 978,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 2475,
+     "board_hash": 1623055729,
+     "lines": 988,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 2500,
+     "board_hash": 3314814132,
+     "lines": 992,
+     "chose_rot": 0,
+     "chose_left_col": 8,
+     "n_legal": 9
+    },
+    {
+     "piece": 2525,
+     "board_hash": 2882802650,
+     "lines": 1003,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 2550,
+     "board_hash": 3543169285,
+     "lines": 1016,
+     "chose_rot": 1,
+     "chose_left_col": 2,
+     "n_legal": 17
+    },
+    {
+     "piece": 2575,
+     "board_hash": 1542157882,
+     "lines": 1020,
+     "chose_rot": 1,
+     "chose_left_col": 4,
+     "n_legal": 17
+    },
+    {
+     "piece": 2600,
+     "board_hash": 2320056244,
+     "lines": 1036,
+     "chose_rot": 0,
+     "chose_left_col": 7,
+     "n_legal": 9
+    },
+    {
+     "piece": 2625,
+     "board_hash": 2201709125,
+     "lines": 1046,
+     "chose_rot": 1,
+     "chose_left_col": 4,
+     "n_legal": 34
+    },
+    {
+     "piece": 2650,
+     "board_hash": 2077224786,
+     "lines": 1058,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 2675,
+     "board_hash": 2308278698,
+     "lines": 1068,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 2700,
+     "board_hash": 835125154,
+     "lines": 1073,
+     "chose_rot": 0,
+     "chose_left_col": 7,
+     "n_legal": 17
+    },
+    {
+     "piece": 2725,
+     "board_hash": 1097653290,
+     "lines": 1088,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 2750,
+     "board_hash": 1275440759,
+     "lines": 1098,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 17
+    },
+    {
+     "piece": 2775,
+     "board_hash": 385285527,
+     "lines": 1107,
+     "chose_rot": 1,
+     "chose_left_col": 1,
+     "n_legal": 17
+    },
+    {
+     "piece": 2800,
+     "board_hash": 1076554536,
+     "lines": 1117,
+     "chose_rot": 0,
+     "chose_left_col": 3,
+     "n_legal": 17
+    },
+    {
+     "piece": 2825,
+     "board_hash": 1202411029,
+     "lines": 1126,
+     "chose_rot": 1,
+     "chose_left_col": 9,
+     "n_legal": 17
+    },
+    {
+     "piece": 2850,
+     "board_hash": 2336260781,
+     "lines": 1136,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 2875,
+     "board_hash": 1529832624,
+     "lines": 1148,
+     "chose_rot": 1,
+     "chose_left_col": 7,
+     "n_legal": 17
+    },
+    {
+     "piece": 2900,
+     "board_hash": 383334802,
+     "lines": 1158,
+     "chose_rot": 0,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 2925,
+     "board_hash": 1745423145,
+     "lines": 1166,
+     "chose_rot": 2,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 2950,
+     "board_hash": 3362593421,
+     "lines": 1172,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 2975,
+     "board_hash": 1921570592,
+     "lines": 1186,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 17
+    },
+    {
+     "piece": 3000,
+     "board_hash": 3751375006,
+     "lines": 1199,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 3025,
+     "board_hash": 912644391,
+     "lines": 1209,
+     "chose_rot": 2,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 3050,
+     "board_hash": 2660909782,
+     "lines": 1217,
+     "chose_rot": 1,
+     "chose_left_col": 9,
+     "n_legal": 17
+    },
+    {
+     "piece": 3075,
+     "board_hash": 207696265,
+     "lines": 1225,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 3100,
+     "board_hash": 2108219622,
+     "lines": 1235,
+     "chose_rot": 2,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 3125,
+     "board_hash": 2678113937,
+     "lines": 1247,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 9
+    },
+    {
+     "piece": 3150,
+     "board_hash": 3522550506,
+     "lines": 1256,
+     "chose_rot": 0,
+     "chose_left_col": 6,
+     "n_legal": 9
+    },
+    {
+     "piece": 3175,
+     "board_hash": 878745420,
+     "lines": 1262,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 9
+    },
+    {
+     "piece": 3200,
+     "board_hash": 243933377,
+     "lines": 1270,
+     "chose_rot": 3,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 3225,
+     "board_hash": 809894532,
+     "lines": 1281,
+     "chose_rot": 2,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 3250,
+     "board_hash": 3433912645,
+     "lines": 1289,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 3275,
+     "board_hash": 2346845527,
+     "lines": 1302,
+     "chose_rot": 1,
+     "chose_left_col": 4,
+     "n_legal": 34
+    },
+    {
+     "piece": 3300,
+     "board_hash": 2032926336,
+     "lines": 1312,
+     "chose_rot": 1,
+     "chose_left_col": 2,
+     "n_legal": 17
+    },
+    {
+     "piece": 3325,
+     "board_hash": 3174449566,
+     "lines": 1327,
+     "chose_rot": 1,
+     "chose_left_col": 7,
+     "n_legal": 17
+    },
+    {
+     "piece": 3350,
+     "board_hash": 3077319647,
+     "lines": 1336,
+     "chose_rot": 2,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 3375,
+     "board_hash": 382470005,
+     "lines": 1347,
+     "chose_rot": 1,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 3400,
+     "board_hash": 4236737409,
+     "lines": 1356,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 17
+    },
+    {
+     "piece": 3425,
+     "board_hash": 3138329938,
+     "lines": 1364,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 3450,
+     "board_hash": 229417076,
+     "lines": 1376,
+     "chose_rot": 3,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 3475,
+     "board_hash": 3254349454,
+     "lines": 1386,
+     "chose_rot": 3,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 3500,
+     "board_hash": 2924607807,
+     "lines": 1397,
+     "chose_rot": 0,
+     "chose_left_col": 3,
+     "n_legal": 9
+    },
+    {
+     "piece": 3525,
+     "board_hash": 3239823311,
+     "lines": 1404,
+     "chose_rot": 2,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 3550,
+     "board_hash": 4103933689,
+     "lines": 1418,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 3575,
+     "board_hash": 3136102414,
+     "lines": 1426,
+     "chose_rot": 3,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 3600,
+     "board_hash": 2505684545,
+     "lines": 1435,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 9
+    },
+    {
+     "piece": 3625,
+     "board_hash": 3013264520,
+     "lines": 1441,
+     "chose_rot": 0,
+     "chose_left_col": 8,
+     "n_legal": 9
+    },
+    {
+     "piece": 3650,
+     "board_hash": 3857870518,
+     "lines": 1454,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 3675,
+     "board_hash": 1731072252,
+     "lines": 1463,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 3700,
+     "board_hash": 924601731,
+     "lines": 1475,
+     "chose_rot": 0,
+     "chose_left_col": 7,
+     "n_legal": 17
+    },
+    {
+     "piece": 3725,
+     "board_hash": 3580486044,
+     "lines": 1485,
+     "chose_rot": 0,
+     "chose_left_col": 6,
+     "n_legal": 17
+    },
+    {
+     "piece": 3750,
+     "board_hash": 2631960130,
+     "lines": 1496,
+     "chose_rot": 1,
+     "chose_left_col": 4,
+     "n_legal": 34
+    },
+    {
+     "piece": 3775,
+     "board_hash": 2804223274,
+     "lines": 1507,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 3800,
+     "board_hash": 2553971062,
+     "lines": 1518,
+     "chose_rot": 2,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 3825,
+     "board_hash": 871808643,
+     "lines": 1524,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 3850,
+     "board_hash": 3227835722,
+     "lines": 1536,
+     "chose_rot": 1,
+     "chose_left_col": 9,
+     "n_legal": 17
+    },
+    {
+     "piece": 3875,
+     "board_hash": 4272993385,
+     "lines": 1548,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 17
+    },
+    {
+     "piece": 3900,
+     "board_hash": 22264864,
+     "lines": 1554,
+     "chose_rot": 1,
+     "chose_left_col": 2,
+     "n_legal": 17
+    },
+    {
+     "piece": 3925,
+     "board_hash": 1748959442,
+     "lines": 1567,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 3950,
+     "board_hash": 1208707056,
+     "lines": 1578,
+     "chose_rot": 0,
+     "chose_left_col": 6,
+     "n_legal": 17
+    },
+    {
+     "piece": 3975,
+     "board_hash": 2469653533,
+     "lines": 1583,
+     "chose_rot": 1,
+     "chose_left_col": 9,
+     "n_legal": 17
+    },
+    {
+     "piece": 4000,
+     "board_hash": 1071080271,
+     "lines": 1593,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 9
+    },
+    {
+     "piece": 4025,
+     "board_hash": 1609954310,
+     "lines": 1597,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 4050,
+     "board_hash": 352450692,
+     "lines": 1610,
+     "chose_rot": 0,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 4075,
+     "board_hash": 3872668128,
+     "lines": 1624,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 4100,
+     "board_hash": 2438436357,
+     "lines": 1634,
+     "chose_rot": 1,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 4125,
+     "board_hash": 2525375385,
+     "lines": 1645,
+     "chose_rot": 2,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 4150,
+     "board_hash": 1580230747,
+     "lines": 1651,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 4175,
+     "board_hash": 1100518843,
+     "lines": 1662,
+     "chose_rot": 3,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 4200,
+     "board_hash": 318508435,
+     "lines": 1672,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 4225,
+     "board_hash": 388609218,
+     "lines": 1687,
+     "chose_rot": 0,
+     "chose_left_col": 7,
+     "n_legal": 9
+    },
+    {
+     "piece": 4250,
+     "board_hash": 508779584,
+     "lines": 1694,
+     "chose_rot": 1,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 4275,
+     "board_hash": 1883319083,
+     "lines": 1708,
+     "chose_rot": 3,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 4300,
+     "board_hash": 1633328886,
+     "lines": 1716,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 17
+    },
+    {
+     "piece": 4325,
+     "board_hash": 2248968462,
+     "lines": 1728,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 4350,
+     "board_hash": 3020028256,
+     "lines": 1737,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 4375,
+     "board_hash": 2052594586,
+     "lines": 1745,
+     "chose_rot": 1,
+     "chose_left_col": 9,
+     "n_legal": 17
+    },
+    {
+     "piece": 4400,
+     "board_hash": 3495773732,
+     "lines": 1758,
+     "chose_rot": 1,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 4425,
+     "board_hash": 2941568376,
+     "lines": 1765,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 4450,
+     "board_hash": 1298093382,
+     "lines": 1779,
+     "chose_rot": 2,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 4475,
+     "board_hash": 140297542,
+     "lines": 1787,
+     "chose_rot": 0,
+     "chose_left_col": 7,
+     "n_legal": 9
+    },
+    {
+     "piece": 4500,
+     "board_hash": 3218131392,
+     "lines": 1797,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 4525,
+     "board_hash": 3236742631,
+     "lines": 1809,
+     "chose_rot": 1,
+     "chose_left_col": 9,
+     "n_legal": 17
+    },
+    {
+     "piece": 4550,
+     "board_hash": 1145171507,
+     "lines": 1818,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 4575,
+     "board_hash": 1973650978,
+     "lines": 1828,
+     "chose_rot": 3,
+     "chose_left_col": 4,
+     "n_legal": 34
+    },
+    {
+     "piece": 4600,
+     "board_hash": 1452742822,
+     "lines": 1838,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 17
+    },
+    {
+     "piece": 4625,
+     "board_hash": 3688099224,
+     "lines": 1847,
+     "chose_rot": 2,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 4650,
+     "board_hash": 196357891,
+     "lines": 1856,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 17
+    },
+    {
+     "piece": 4675,
+     "board_hash": 1435148853,
+     "lines": 1866,
+     "chose_rot": 3,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 4700,
+     "board_hash": 3420927939,
+     "lines": 1877,
+     "chose_rot": 3,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 4725,
+     "board_hash": 114293627,
+     "lines": 1888,
+     "chose_rot": 1,
+     "chose_left_col": 9,
+     "n_legal": 17
+    },
+    {
+     "piece": 4750,
+     "board_hash": 511861178,
+     "lines": 1894,
+     "chose_rot": 0,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 4775,
+     "board_hash": 3978738109,
+     "lines": 1906,
+     "chose_rot": 3,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 4800,
+     "board_hash": 720523677,
+     "lines": 1917,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 4825,
+     "board_hash": 1754225170,
+     "lines": 1929,
+     "chose_rot": 3,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 4850,
+     "board_hash": 970958455,
+     "lines": 1934,
+     "chose_rot": 2,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 4875,
+     "board_hash": 1285298677,
+     "lines": 1945,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 17
+    },
+    {
+     "piece": 4900,
+     "board_hash": 3300671280,
+     "lines": 1954,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 4925,
+     "board_hash": 2403526304,
+     "lines": 1961,
+     "chose_rot": 3,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 4950,
+     "board_hash": 1532227486,
+     "lines": 1974,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 4975,
+     "board_hash": 2259703314,
+     "lines": 1987,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 17
+    },
+    {
+     "piece": 5000,
+     "board_hash": 4213712851,
+     "lines": 1997,
+     "chose_rot": 1,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 5025,
+     "board_hash": 3539734405,
+     "lines": 2003,
+     "chose_rot": 3,
+     "chose_left_col": 4,
+     "n_legal": 34
+    },
+    {
+     "piece": 5050,
+     "board_hash": 1487246593,
+     "lines": 2018,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 5075,
+     "board_hash": 2607533995,
+     "lines": 2023,
+     "chose_rot": 2,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 5100,
+     "board_hash": 1104706489,
+     "lines": 2035,
+     "chose_rot": 0,
+     "chose_left_col": 4,
+     "n_legal": 9
+    },
+    {
+     "piece": 5125,
+     "board_hash": 2704707082,
+     "lines": 2040,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 5150,
+     "board_hash": 3156639247,
+     "lines": 2054,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 9
+    },
+    {
+     "piece": 5175,
+     "board_hash": 2621297778,
+     "lines": 2061,
+     "chose_rot": 3,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 5200,
+     "board_hash": 2655473411,
+     "lines": 2070,
+     "chose_rot": 3,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 5225,
+     "board_hash": 3928562858,
+     "lines": 2081,
+     "chose_rot": 0,
+     "chose_left_col": 2,
+     "n_legal": 17
+    },
+    {
+     "piece": 5250,
+     "board_hash": 743013701,
+     "lines": 2094,
+     "chose_rot": 1,
+     "chose_left_col": 9,
+     "n_legal": 17
+    },
+    {
+     "piece": 5275,
+     "board_hash": 109413016,
+     "lines": 2103,
+     "chose_rot": 0,
+     "chose_left_col": 2,
+     "n_legal": 9
+    },
+    {
+     "piece": 5300,
+     "board_hash": 3189891134,
+     "lines": 2112,
+     "chose_rot": 3,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 5325,
+     "board_hash": 3664186331,
+     "lines": 2121,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 5350,
+     "board_hash": 2740375685,
+     "lines": 2137,
+     "chose_rot": 0,
+     "chose_left_col": 6,
+     "n_legal": 17
+    },
+    {
+     "piece": 5375,
+     "board_hash": 2192017314,
+     "lines": 2142,
+     "chose_rot": 0,
+     "chose_left_col": 3,
+     "n_legal": 17
+    },
+    {
+     "piece": 5400,
+     "board_hash": 1321958673,
+     "lines": 2157,
+     "chose_rot": 3,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 5425,
+     "board_hash": 2974148225,
+     "lines": 2164,
+     "chose_rot": 1,
+     "chose_left_col": 1,
+     "n_legal": 17
+    },
+    {
+     "piece": 5450,
+     "board_hash": 2536895374,
+     "lines": 2176,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 9
+    },
+    {
+     "piece": 5475,
+     "board_hash": 1622310559,
+     "lines": 2189,
+     "chose_rot": 2,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 5500,
+     "board_hash": 623821931,
+     "lines": 2196,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 5525,
+     "board_hash": 3947573155,
+     "lines": 2203,
+     "chose_rot": 0,
+     "chose_left_col": 3,
+     "n_legal": 17
+    },
+    {
+     "piece": 5550,
+     "board_hash": 984461257,
+     "lines": 2212,
+     "chose_rot": 3,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 5575,
+     "board_hash": 17644984,
+     "lines": 2224,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 5600,
+     "board_hash": 1936257344,
+     "lines": 2235,
+     "chose_rot": 3,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 5625,
+     "board_hash": 1529858208,
+     "lines": 2248,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 17
+    },
+    {
+     "piece": 5650,
+     "board_hash": 2616914501,
+     "lines": 2257,
+     "chose_rot": 3,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 5675,
+     "board_hash": 1658907845,
+     "lines": 2264,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 5700,
+     "board_hash": 4161833255,
+     "lines": 2278,
+     "chose_rot": 3,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 5725,
+     "board_hash": 1544294104,
+     "lines": 2287,
+     "chose_rot": 0,
+     "chose_left_col": 8,
+     "n_legal": 9
+    },
+    {
+     "piece": 5750,
+     "board_hash": 3499250229,
+     "lines": 2294,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 5775,
+     "board_hash": 493606627,
+     "lines": 2307,
+     "chose_rot": 1,
+     "chose_left_col": 4,
+     "n_legal": 34
+    },
+    {
+     "piece": 5800,
+     "board_hash": 301600070,
+     "lines": 2318,
+     "chose_rot": 3,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 5825,
+     "board_hash": 329928864,
+     "lines": 2326,
+     "chose_rot": 1,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 5850,
+     "board_hash": 955481506,
+     "lines": 2335,
+     "chose_rot": 0,
+     "chose_left_col": 3,
+     "n_legal": 9
+    },
+    {
+     "piece": 5875,
+     "board_hash": 3988168287,
+     "lines": 2344,
+     "chose_rot": 2,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 5900,
+     "board_hash": 63745757,
+     "lines": 2356,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 9
+    },
+    {
+     "piece": 5925,
+     "board_hash": 243550923,
+     "lines": 2367,
+     "chose_rot": 3,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 5950,
+     "board_hash": 4173529684,
+     "lines": 2376,
+     "chose_rot": 0,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 5975,
+     "board_hash": 632911749,
+     "lines": 2385,
+     "chose_rot": 1,
+     "chose_left_col": 9,
+     "n_legal": 17
+    },
+    {
+     "piece": 6000,
+     "board_hash": 2336555066,
+     "lines": 2391,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 6025,
+     "board_hash": 2562681615,
+     "lines": 2402,
+     "chose_rot": 1,
+     "chose_left_col": 4,
+     "n_legal": 17
+    },
+    {
+     "piece": 6050,
+     "board_hash": 1524607867,
+     "lines": 2411,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 6075,
+     "board_hash": 188757880,
+     "lines": 2425,
+     "chose_rot": 0,
+     "chose_left_col": 4,
+     "n_legal": 17
+    },
+    {
+     "piece": 6100,
+     "board_hash": 3363556326,
+     "lines": 2435,
+     "chose_rot": 3,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 6125,
+     "board_hash": 344968661,
+     "lines": 2446,
+     "chose_rot": 2,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 6150,
+     "board_hash": 1152845151,
+     "lines": 2457,
+     "chose_rot": 1,
+     "chose_left_col": 1,
+     "n_legal": 17
+    },
+    {
+     "piece": 6175,
+     "board_hash": 2101903290,
+     "lines": 2467,
+     "chose_rot": 3,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 6200,
+     "board_hash": 1238173952,
+     "lines": 2476,
+     "chose_rot": 1,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 6225,
+     "board_hash": 578323902,
+     "lines": 2488,
+     "chose_rot": 0,
+     "chose_left_col": 1,
+     "n_legal": 17
+    },
+    {
+     "piece": 6250,
+     "board_hash": 3029859781,
+     "lines": 2497,
+     "chose_rot": 2,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 6275,
+     "board_hash": 178525558,
+     "lines": 2509,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 17
+    },
+    {
+     "piece": 6300,
+     "board_hash": 2593959695,
+     "lines": 2518,
+     "chose_rot": 0,
+     "chose_left_col": 7,
+     "n_legal": 9
+    },
+    {
+     "piece": 6325,
+     "board_hash": 4170733398,
+     "lines": 2526,
+     "chose_rot": 1,
+     "chose_left_col": 4,
+     "n_legal": 34
+    },
+    {
+     "piece": 6350,
+     "board_hash": 1609504836,
+     "lines": 2537,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 6375,
+     "board_hash": 4250656513,
+     "lines": 2546,
+     "chose_rot": 3,
+     "chose_left_col": 4,
+     "n_legal": 34
+    },
+    {
+     "piece": 6400,
+     "board_hash": 950546534,
+     "lines": 2550,
+     "chose_rot": 3,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 6425,
+     "board_hash": 3121583667,
+     "lines": 2563,
+     "chose_rot": 1,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 6450,
+     "board_hash": 2839302014,
+     "lines": 2573,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 6475,
+     "board_hash": 1524802355,
+     "lines": 2581,
+     "chose_rot": 3,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 6500,
+     "board_hash": 710936073,
+     "lines": 2594,
+     "chose_rot": 0,
+     "chose_left_col": 8,
+     "n_legal": 9
+    },
+    {
+     "piece": 6525,
+     "board_hash": 1568184165,
+     "lines": 2606,
+     "chose_rot": 0,
+     "chose_left_col": 2,
+     "n_legal": 9
+    },
+    {
+     "piece": 6550,
+     "board_hash": 3979061823,
+     "lines": 2614,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 9
+    },
+    {
+     "piece": 6575,
+     "board_hash": 1140472740,
+     "lines": 2620,
+     "chose_rot": 1,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 6600,
+     "board_hash": 1536259125,
+     "lines": 2636,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 6625,
+     "board_hash": 662506432,
+     "lines": 2648,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 6650,
+     "board_hash": 993293579,
+     "lines": 2656,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 6675,
+     "board_hash": 4073828246,
+     "lines": 2661,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 17
+    },
+    {
+     "piece": 6700,
+     "board_hash": 1850662715,
+     "lines": 2677,
+     "chose_rot": 0,
+     "chose_left_col": 1,
+     "n_legal": 9
+    },
+    {
+     "piece": 6725,
+     "board_hash": 4141324223,
+     "lines": 2683,
+     "chose_rot": 1,
+     "chose_left_col": 7,
+     "n_legal": 17
+    },
+    {
+     "piece": 6750,
+     "board_hash": 3855155364,
+     "lines": 2695,
+     "chose_rot": 1,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 6775,
+     "board_hash": 3596200404,
+     "lines": 2706,
+     "chose_rot": 1,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 6800,
+     "board_hash": 3724621118,
+     "lines": 2710,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 6825,
+     "board_hash": 4126477805,
+     "lines": 2722,
+     "chose_rot": 3,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 6850,
+     "board_hash": 2153650327,
+     "lines": 2737,
+     "chose_rot": 0,
+     "chose_left_col": 2,
+     "n_legal": 17
+    },
+    {
+     "piece": 6875,
+     "board_hash": 1439973220,
+     "lines": 2743,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 6900,
+     "board_hash": 3187804861,
+     "lines": 2753,
+     "chose_rot": 0,
+     "chose_left_col": 3,
+     "n_legal": 17
+    },
+    {
+     "piece": 6925,
+     "board_hash": 3761494065,
+     "lines": 2766,
+     "chose_rot": 0,
+     "chose_left_col": 8,
+     "n_legal": 9
+    },
+    {
+     "piece": 6950,
+     "board_hash": 2820348920,
+     "lines": 2777,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 6975,
+     "board_hash": 388249000,
+     "lines": 2783,
+     "chose_rot": 2,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 7000,
+     "board_hash": 4058084568,
+     "lines": 2797,
+     "chose_rot": 2,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 7025,
+     "board_hash": 100796695,
+     "lines": 2805,
+     "chose_rot": 1,
+     "chose_left_col": 4,
+     "n_legal": 17
+    },
+    {
+     "piece": 7050,
+     "board_hash": 2327450456,
+     "lines": 2811,
+     "chose_rot": 3,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 7075,
+     "board_hash": 705822905,
+     "lines": 2825,
+     "chose_rot": 1,
+     "chose_left_col": 1,
+     "n_legal": 17
+    },
+    {
+     "piece": 7100,
+     "board_hash": 2774584689,
+     "lines": 2835,
+     "chose_rot": 0,
+     "chose_left_col": 7,
+     "n_legal": 9
+    },
+    {
+     "piece": 7125,
+     "board_hash": 918886834,
+     "lines": 2843,
+     "chose_rot": 3,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 7150,
+     "board_hash": 2675114668,
+     "lines": 2855,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 7175,
+     "board_hash": 1663544853,
+     "lines": 2867,
+     "chose_rot": 1,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 7200,
+     "board_hash": 1549925765,
+     "lines": 2879,
+     "chose_rot": 0,
+     "chose_left_col": 7,
+     "n_legal": 17
+    },
+    {
+     "piece": 7225,
+     "board_hash": 563214152,
+     "lines": 2888,
+     "chose_rot": 2,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 7250,
+     "board_hash": 3416812908,
+     "lines": 2898,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 7275,
+     "board_hash": 2675084752,
+     "lines": 2903,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 7300,
+     "board_hash": 4028965411,
+     "lines": 2913,
+     "chose_rot": 1,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 7325,
+     "board_hash": 810978426,
+     "lines": 2925,
+     "chose_rot": 0,
+     "chose_left_col": 4,
+     "n_legal": 17
+    },
+    {
+     "piece": 7350,
+     "board_hash": 2537220388,
+     "lines": 2931,
+     "chose_rot": 1,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 7375,
+     "board_hash": 3758600901,
+     "lines": 2945,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 7400,
+     "board_hash": 1283856564,
+     "lines": 2958,
+     "chose_rot": 0,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 7425,
+     "board_hash": 1241978543,
+     "lines": 2965,
+     "chose_rot": 0,
+     "chose_left_col": 2,
+     "n_legal": 9
+    },
+    {
+     "piece": 7450,
+     "board_hash": 1620549081,
+     "lines": 2977,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 9
+    },
+    {
+     "piece": 7475,
+     "board_hash": 3294675841,
+     "lines": 2986,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 7500,
+     "board_hash": 1871473500,
+     "lines": 2996,
+     "chose_rot": 0,
+     "chose_left_col": 1,
+     "n_legal": 9
+    },
+    {
+     "piece": 7525,
+     "board_hash": 2801803285,
+     "lines": 3005,
+     "chose_rot": 3,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 7550,
+     "board_hash": 702128867,
+     "lines": 3013,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 7575,
+     "board_hash": 669374322,
+     "lines": 3024,
+     "chose_rot": 0,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 7600,
+     "board_hash": 3552253828,
+     "lines": 3034,
+     "chose_rot": 0,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 7625,
+     "board_hash": 1427167436,
+     "lines": 3044,
+     "chose_rot": 1,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 7650,
+     "board_hash": 1512513573,
+     "lines": 3056,
+     "chose_rot": 1,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 7675,
+     "board_hash": 2937582701,
+     "lines": 3065,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 9
+    },
+    {
+     "piece": 7700,
+     "board_hash": 3023816022,
+     "lines": 3079,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 7725,
+     "board_hash": 3867032913,
+     "lines": 3086,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 7750,
+     "board_hash": 421486758,
+     "lines": 3093,
+     "chose_rot": 3,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 7775,
+     "board_hash": 2671387242,
+     "lines": 3103,
+     "chose_rot": 0,
+     "chose_left_col": 6,
+     "n_legal": 9
+    },
+    {
+     "piece": 7800,
+     "board_hash": 2343303189,
+     "lines": 3109,
+     "chose_rot": 0,
+     "chose_left_col": 8,
+     "n_legal": 9
+    },
+    {
+     "piece": 7825,
+     "board_hash": 608676856,
+     "lines": 3120,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 7850,
+     "board_hash": 1149732898,
+     "lines": 3127,
+     "chose_rot": 1,
+     "chose_left_col": 7,
+     "n_legal": 17
+    },
+    {
+     "piece": 7875,
+     "board_hash": 623493304,
+     "lines": 3139,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 7900,
+     "board_hash": 2119782024,
+     "lines": 3149,
+     "chose_rot": 3,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 7925,
+     "board_hash": 4078187484,
+     "lines": 3158,
+     "chose_rot": 1,
+     "chose_left_col": 4,
+     "n_legal": 17
+    },
+    {
+     "piece": 7950,
+     "board_hash": 2902048242,
+     "lines": 3167,
+     "chose_rot": 1,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 7975,
+     "board_hash": 2999791460,
+     "lines": 3187,
+     "chose_rot": 1,
+     "chose_left_col": 9,
+     "n_legal": 17
+    },
+    {
+     "piece": 8000,
+     "board_hash": 946470835,
+     "lines": 3197,
+     "chose_rot": 3,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 8025,
+     "board_hash": 1841995591,
+     "lines": 3206,
+     "chose_rot": 0,
+     "chose_left_col": 1,
+     "n_legal": 9
+    },
+    {
+     "piece": 8050,
+     "board_hash": 267184314,
+     "lines": 3215,
+     "chose_rot": 2,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 8075,
+     "board_hash": 254609322,
+     "lines": 3224,
+     "chose_rot": 3,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 8100,
+     "board_hash": 4214524102,
+     "lines": 3234,
+     "chose_rot": 1,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 8125,
+     "board_hash": 30825288,
+     "lines": 3248,
+     "chose_rot": 3,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 8150,
+     "board_hash": 1627092740,
+     "lines": 3258,
+     "chose_rot": 0,
+     "chose_left_col": 6,
+     "n_legal": 9
+    },
+    {
+     "piece": 8175,
+     "board_hash": 3981929494,
+     "lines": 3268,
+     "chose_rot": 2,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 8200,
+     "board_hash": 4181801774,
+     "lines": 3276,
+     "chose_rot": 1,
+     "chose_left_col": 4,
+     "n_legal": 34
+    },
+    {
+     "piece": 8225,
+     "board_hash": 2289875036,
+     "lines": 3284,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 17
+    },
+    {
+     "piece": 8250,
+     "board_hash": 286231260,
+     "lines": 3294,
+     "chose_rot": 1,
+     "chose_left_col": 2,
+     "n_legal": 17
+    },
+    {
+     "piece": 8275,
+     "board_hash": 4173996249,
+     "lines": 3306,
+     "chose_rot": 0,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 8300,
+     "board_hash": 1290792323,
+     "lines": 3317,
+     "chose_rot": 3,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 8325,
+     "board_hash": 1328665895,
+     "lines": 3327,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 8350,
+     "board_hash": 837264719,
+     "lines": 3338,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 8375,
+     "board_hash": 535823860,
+     "lines": 3343,
+     "chose_rot": 1,
+     "chose_left_col": 9,
+     "n_legal": 17
+    },
+    {
+     "piece": 8400,
+     "board_hash": 3234135098,
+     "lines": 3356,
+     "chose_rot": 0,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 8425,
+     "board_hash": 134399563,
+     "lines": 3365,
+     "chose_rot": 1,
+     "chose_left_col": 9,
+     "n_legal": 17
+    },
+    {
+     "piece": 8450,
+     "board_hash": 4135081996,
+     "lines": 3375,
+     "chose_rot": 0,
+     "chose_left_col": 7,
+     "n_legal": 17
+    },
+    {
+     "piece": 8475,
+     "board_hash": 3984782344,
+     "lines": 3383,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 8500,
+     "board_hash": 1127288345,
+     "lines": 3394,
+     "chose_rot": 0,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 8525,
+     "board_hash": 4071400907,
+     "lines": 3402,
+     "chose_rot": 0,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 8550,
+     "board_hash": 3747527901,
+     "lines": 3414,
+     "chose_rot": 0,
+     "chose_left_col": 8,
+     "n_legal": 9
+    },
+    {
+     "piece": 8575,
+     "board_hash": 9347013,
+     "lines": 3424,
+     "chose_rot": 3,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 8600,
+     "board_hash": 1892127537,
+     "lines": 3437,
+     "chose_rot": 3,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 8625,
+     "board_hash": 2550109621,
+     "lines": 3448,
+     "chose_rot": 0,
+     "chose_left_col": 2,
+     "n_legal": 17
+    },
+    {
+     "piece": 8650,
+     "board_hash": 2975196636,
+     "lines": 3459,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 8675,
+     "board_hash": 1108921239,
+     "lines": 3465,
+     "chose_rot": 0,
+     "chose_left_col": 8,
+     "n_legal": 9
+    },
+    {
+     "piece": 8700,
+     "board_hash": 3381617748,
+     "lines": 3479,
+     "chose_rot": 0,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 8725,
+     "board_hash": 248953559,
+     "lines": 3485,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 8750,
+     "board_hash": 1235975720,
+     "lines": 3498,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 9
+    },
+    {
+     "piece": 8775,
+     "board_hash": 1205977918,
+     "lines": 3503,
+     "chose_rot": 3,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 8800,
+     "board_hash": 748827513,
+     "lines": 3518,
+     "chose_rot": 1,
+     "chose_left_col": 1,
+     "n_legal": 17
+    },
+    {
+     "piece": 8825,
+     "board_hash": 2160315558,
+     "lines": 3528,
+     "chose_rot": 1,
+     "chose_left_col": 9,
+     "n_legal": 17
+    },
+    {
+     "piece": 8850,
+     "board_hash": 2319720084,
+     "lines": 3535,
+     "chose_rot": 0,
+     "chose_left_col": 4,
+     "n_legal": 9
+    },
+    {
+     "piece": 8875,
+     "board_hash": 44014438,
+     "lines": 3548,
+     "chose_rot": 1,
+     "chose_left_col": 9,
+     "n_legal": 17
+    },
+    {
+     "piece": 8900,
+     "board_hash": 2745693022,
+     "lines": 3557,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 8925,
+     "board_hash": 816848601,
+     "lines": 3566,
+     "chose_rot": 1,
+     "chose_left_col": 9,
+     "n_legal": 17
+    },
+    {
+     "piece": 8950,
+     "board_hash": 579689485,
+     "lines": 3574,
+     "chose_rot": 1,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 8975,
+     "board_hash": 2828470654,
+     "lines": 3585,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 9000,
+     "board_hash": 2456609897,
+     "lines": 3593,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 9025,
+     "board_hash": 1054704516,
+     "lines": 3607,
+     "chose_rot": 1,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 9050,
+     "board_hash": 4283959019,
+     "lines": 3616,
+     "chose_rot": 0,
+     "chose_left_col": 6,
+     "n_legal": 9
+    },
+    {
+     "piece": 9075,
+     "board_hash": 1514936705,
+     "lines": 3625,
+     "chose_rot": 0,
+     "chose_left_col": 4,
+     "n_legal": 17
+    },
+    {
+     "piece": 9100,
+     "board_hash": 4285802936,
+     "lines": 3634,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 9125,
+     "board_hash": 4275169956,
+     "lines": 3642,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 9150,
+     "board_hash": 2818709336,
+     "lines": 3658,
+     "chose_rot": 1,
+     "chose_left_col": 9,
+     "n_legal": 17
+    },
+    {
+     "piece": 9175,
+     "board_hash": 2296865398,
+     "lines": 3666,
+     "chose_rot": 3,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 9200,
+     "board_hash": 514178941,
+     "lines": 3672,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 9225,
+     "board_hash": 4046245679,
+     "lines": 3687,
+     "chose_rot": 0,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 9250,
+     "board_hash": 4278572872,
+     "lines": 3692,
+     "chose_rot": 3,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 9275,
+     "board_hash": 2764858967,
+     "lines": 3706,
+     "chose_rot": 0,
+     "chose_left_col": 3,
+     "n_legal": 9
+    },
+    {
+     "piece": 9300,
+     "board_hash": 3660954445,
+     "lines": 3713,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 9325,
+     "board_hash": 3618222204,
+     "lines": 3725,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 9350,
+     "board_hash": 2576747237,
+     "lines": 3736,
+     "chose_rot": 1,
+     "chose_left_col": 4,
+     "n_legal": 17
+    },
+    {
+     "piece": 9375,
+     "board_hash": 4288891268,
+     "lines": 3745,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 9400,
+     "board_hash": 847412550,
+     "lines": 3756,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 9425,
+     "board_hash": 1526706546,
+     "lines": 3767,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 9
+    },
+    {
+     "piece": 9450,
+     "board_hash": 46345044,
+     "lines": 3773,
+     "chose_rot": 3,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 9475,
+     "board_hash": 1203021557,
+     "lines": 3787,
+     "chose_rot": 0,
+     "chose_left_col": 2,
+     "n_legal": 9
+    },
+    {
+     "piece": 9500,
+     "board_hash": 772973504,
+     "lines": 3796,
+     "chose_rot": 1,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 9525,
+     "board_hash": 2677666611,
+     "lines": 3806,
+     "chose_rot": 1,
+     "chose_left_col": 2,
+     "n_legal": 17
+    },
+    {
+     "piece": 9550,
+     "board_hash": 1892235049,
+     "lines": 3818,
+     "chose_rot": 0,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 9575,
+     "board_hash": 2101793871,
+     "lines": 3828,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 9600,
+     "board_hash": 291662670,
+     "lines": 3838,
+     "chose_rot": 1,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 9625,
+     "board_hash": 2464410387,
+     "lines": 3846,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 9650,
+     "board_hash": 1959663764,
+     "lines": 3854,
+     "chose_rot": 1,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 9675,
+     "board_hash": 4281847285,
+     "lines": 3863,
+     "chose_rot": 0,
+     "chose_left_col": 2,
+     "n_legal": 17
+    },
+    {
+     "piece": 9700,
+     "board_hash": 1114467198,
+     "lines": 3878,
+     "chose_rot": 3,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 9725,
+     "board_hash": 2542034137,
+     "lines": 3887,
+     "chose_rot": 3,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 9750,
+     "board_hash": 2363321634,
+     "lines": 3898,
+     "chose_rot": 1,
+     "chose_left_col": 9,
+     "n_legal": 17
+    },
+    {
+     "piece": 9775,
+     "board_hash": 50525640,
+     "lines": 3909,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 9800,
+     "board_hash": 2430914672,
+     "lines": 3917,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 9825,
+     "board_hash": 3108033883,
+     "lines": 3929,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 9850,
+     "board_hash": 3110202810,
+     "lines": 3936,
+     "chose_rot": 0,
+     "chose_left_col": 4,
+     "n_legal": 9
+    },
+    {
+     "piece": 9875,
+     "board_hash": 202611948,
+     "lines": 3949,
+     "chose_rot": 0,
+     "chose_left_col": 2,
+     "n_legal": 9
+    },
+    {
+     "piece": 9900,
+     "board_hash": 1794415473,
+     "lines": 3958,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 9925,
+     "board_hash": 57225877,
+     "lines": 3966,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 9950,
+     "board_hash": 3514890167,
+     "lines": 3972,
+     "chose_rot": 0,
+     "chose_left_col": 7,
+     "n_legal": 9
+    },
+    {
+     "piece": 9975,
+     "board_hash": 1484422535,
+     "lines": 3986,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 10000,
+     "board_hash": 514453356,
+     "lines": 3996,
+     "chose_rot": 1,
+     "chose_left_col": 2,
+     "n_legal": 17
+    },
+    {
+     "piece": 10025,
+     "board_hash": 203779383,
+     "lines": 4005,
+     "chose_rot": 2,
+     "chose_left_col": 4,
+     "n_legal": 34
+    },
+    {
+     "piece": 10050,
+     "board_hash": 2007367772,
+     "lines": 4014,
+     "chose_rot": 0,
+     "chose_left_col": 3,
+     "n_legal": 17
+    },
+    {
+     "piece": 10075,
+     "board_hash": 2647506288,
+     "lines": 4020,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 10100,
+     "board_hash": 2886112244,
+     "lines": 4036,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 10125,
+     "board_hash": 3634252708,
+     "lines": 4046,
+     "chose_rot": 1,
+     "chose_left_col": 7,
+     "n_legal": 17
+    },
+    {
+     "piece": 10150,
+     "board_hash": 956464819,
+     "lines": 4053,
+     "chose_rot": 0,
+     "chose_left_col": 3,
+     "n_legal": 17
+    },
+    {
+     "piece": 10175,
+     "board_hash": 3163745759,
+     "lines": 4069,
+     "chose_rot": 1,
+     "chose_left_col": 9,
+     "n_legal": 17
+    },
+    {
+     "piece": 10200,
+     "board_hash": 519214304,
+     "lines": 4077,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 10225,
+     "board_hash": 4079426292,
+     "lines": 4087,
+     "chose_rot": 0,
+     "chose_left_col": 7,
+     "n_legal": 9
+    },
+    {
+     "piece": 10250,
+     "board_hash": 348510823,
+     "lines": 4094,
+     "chose_rot": 0,
+     "chose_left_col": 8,
+     "n_legal": 9
+    },
+    {
+     "piece": 10275,
+     "board_hash": 1904815535,
+     "lines": 4103,
+     "chose_rot": 1,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 10300,
+     "board_hash": 1075469789,
+     "lines": 4110,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 17
+    },
+    {
+     "piece": 10325,
+     "board_hash": 1514871860,
+     "lines": 4124,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 10350,
+     "board_hash": 1043211803,
+     "lines": 4131,
+     "chose_rot": 3,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 10375,
+     "board_hash": 1955571193,
+     "lines": 4142,
+     "chose_rot": 0,
+     "chose_left_col": 3,
+     "n_legal": 9
+    },
+    {
+     "piece": 10400,
+     "board_hash": 777266293,
+     "lines": 4151,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 10425,
+     "board_hash": 2967961257,
+     "lines": 4160,
+     "chose_rot": 0,
+     "chose_left_col": 3,
+     "n_legal": 9
+    },
+    {
+     "piece": 10450,
+     "board_hash": 1239954123,
+     "lines": 4169,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 17
+    },
+    {
+     "piece": 10475,
+     "board_hash": 772700771,
+     "lines": 4185,
+     "chose_rot": 0,
+     "chose_left_col": 4,
+     "n_legal": 17
+    },
+    {
+     "piece": 10500,
+     "board_hash": 1669567075,
+     "lines": 4193,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 10525,
+     "board_hash": 1183584513,
+     "lines": 4207,
+     "chose_rot": 0,
+     "chose_left_col": 7,
+     "n_legal": 17
+    },
+    {
+     "piece": 10550,
+     "board_hash": 2881829020,
+     "lines": 4214,
+     "chose_rot": 1,
+     "chose_left_col": 2,
+     "n_legal": 17
+    },
+    {
+     "piece": 10575,
+     "board_hash": 3734694774,
+     "lines": 4224,
+     "chose_rot": 0,
+     "chose_left_col": 3,
+     "n_legal": 34
+    },
+    {
+     "piece": 10600,
+     "board_hash": 1122528013,
+     "lines": 4234,
+     "chose_rot": 1,
+     "chose_left_col": 9,
+     "n_legal": 17
+    },
+    {
+     "piece": 10625,
+     "board_hash": 1291750527,
+     "lines": 4242,
+     "chose_rot": 1,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 10650,
+     "board_hash": 83831525,
+     "lines": 4251,
+     "chose_rot": 0,
+     "chose_left_col": 4,
+     "n_legal": 17
+    },
+    {
+     "piece": 10675,
+     "board_hash": 370164376,
+     "lines": 4268,
+     "chose_rot": 2,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 10700,
+     "board_hash": 377579350,
+     "lines": 4276,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 10725,
+     "board_hash": 2011209958,
+     "lines": 4287,
+     "chose_rot": 3,
+     "chose_left_col": 4,
+     "n_legal": 34
+    },
+    {
+     "piece": 10750,
+     "board_hash": 4104341574,
+     "lines": 4298,
+     "chose_rot": 3,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 10775,
+     "board_hash": 3743994620,
+     "lines": 4303,
+     "chose_rot": 0,
+     "chose_left_col": 2,
+     "n_legal": 17
+    },
+    {
+     "piece": 10800,
+     "board_hash": 2177238627,
+     "lines": 4315,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 34
+    },
+    {
+     "piece": 10825,
+     "board_hash": 1750031047,
+     "lines": 4325,
+     "chose_rot": 0,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 10850,
+     "board_hash": 3827096971,
+     "lines": 4337,
+     "chose_rot": 0,
+     "chose_left_col": 7,
+     "n_legal": 17
+    },
+    {
+     "piece": 10875,
+     "board_hash": 22955356,
+     "lines": 4347,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 10900,
+     "board_hash": 3019302454,
+     "lines": 4352,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 10925,
+     "board_hash": 871574778,
+     "lines": 4366,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 10950,
+     "board_hash": 804686487,
+     "lines": 4374,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 10975,
+     "board_hash": 4007318966,
+     "lines": 4387,
+     "chose_rot": 3,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 11000,
+     "board_hash": 114494943,
+     "lines": 4395,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 34
+    },
+    {
+     "piece": 11025,
+     "board_hash": 3083626502,
+     "lines": 4406,
+     "chose_rot": 2,
+     "chose_left_col": 4,
+     "n_legal": 34
+    },
+    {
+     "piece": 11050,
+     "board_hash": 2409531226,
+     "lines": 4416,
+     "chose_rot": 3,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 11075,
+     "board_hash": 2029538681,
+     "lines": 4424,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 9
+    },
+    {
+     "piece": 11100,
+     "board_hash": 3436158609,
+     "lines": 4436,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 9
+    },
+    {
+     "piece": 11125,
+     "board_hash": 444933017,
+     "lines": 4443,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 17
+    },
+    {
+     "piece": 11150,
+     "board_hash": 1868961608,
+     "lines": 4451,
+     "chose_rot": 0,
+     "chose_left_col": 5,
+     "n_legal": 9
+    },
+    {
+     "piece": 11175,
+     "board_hash": 3941396703,
+     "lines": 4467,
+     "chose_rot": 0,
+     "chose_left_col": 6,
+     "n_legal": 17
+    },
+    {
+     "piece": 11200,
+     "board_hash": 3300776302,
+     "lines": 4474,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 11225,
+     "board_hash": 2637488868,
+     "lines": 4483,
+     "chose_rot": 2,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 11250,
+     "board_hash": 2636062338,
+     "lines": 4494,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 11275,
+     "board_hash": 3117026394,
+     "lines": 4504,
+     "chose_rot": 1,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 11300,
+     "board_hash": 2993843639,
+     "lines": 4515,
+     "chose_rot": 3,
+     "chose_left_col": 1,
+     "n_legal": 34
+    },
+    {
+     "piece": 11325,
+     "board_hash": 1931412587,
+     "lines": 4526,
+     "chose_rot": 2,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 11350,
+     "board_hash": 820592097,
+     "lines": 4535,
+     "chose_rot": 3,
+     "chose_left_col": 5,
+     "n_legal": 34
+    },
+    {
+     "piece": 11375,
+     "board_hash": 1070525817,
+     "lines": 4542,
+     "chose_rot": 1,
+     "chose_left_col": 3,
+     "n_legal": 17
+    },
+    {
+     "piece": 11400,
+     "board_hash": 2603499972,
+     "lines": 4553,
+     "chose_rot": 1,
+     "chose_left_col": 7,
+     "n_legal": 34
+    },
+    {
+     "piece": 11425,
+     "board_hash": 3999671611,
+     "lines": 4563,
+     "chose_rot": 2,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 11450,
+     "board_hash": 4045137461,
+     "lines": 4569,
+     "chose_rot": 2,
+     "chose_left_col": 4,
+     "n_legal": 34
+    },
+    {
+     "piece": 11475,
+     "board_hash": 2095280230,
+     "lines": 4579,
+     "chose_rot": 3,
+     "chose_left_col": 6,
+     "n_legal": 34
+    },
+    {
+     "piece": 11500,
+     "board_hash": 1536098918,
+     "lines": 4589,
+     "chose_rot": 0,
+     "chose_left_col": 2,
+     "n_legal": 34
+    },
+    {
+     "piece": 11525,
+     "board_hash": 2862105599,
+     "lines": 4597,
+     "chose_rot": 0,
+     "chose_left_col": 4,
+     "n_legal": 9
+    },
+    {
+     "piece": 11550,
+     "board_hash": 3018494483,
+     "lines": 4608,
+     "chose_rot": 1,
+     "chose_left_col": 1,
+     "n_legal": 17
+    },
+    {
+     "piece": 11575,
+     "board_hash": 730716491,
+     "lines": 4614,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 16
+    },
+    {
+     "piece": 11600,
+     "board_hash": 2506115398,
+     "lines": 4630,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 11625,
+     "board_hash": 1804141440,
+     "lines": 4642,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 11650,
+     "board_hash": 2539484883,
+     "lines": 4650,
+     "chose_rot": 0,
+     "chose_left_col": 0,
+     "n_legal": 17
+    },
+    {
+     "piece": 11675,
+     "board_hash": 2959070099,
+     "lines": 4661,
+     "chose_rot": 1,
+     "chose_left_col": 8,
+     "n_legal": 17
+    },
+    {
+     "piece": 11700,
+     "board_hash": 974446099,
+     "lines": 4664,
+     "chose_rot": 1,
+     "chose_left_col": 0,
+     "n_legal": 26
+    },
+    {
+     "piece": 11703,
+     "board_hash": 2954477260,
+     "lines": 4664,
+     "final": true,
+     "game_over": true
+    }
+   ]
+  }
+ }
+}
